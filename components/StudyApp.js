@@ -1,4 +1,4 @@
-import { connect } from "../helper/store/connect.js";
+import { connect } from "../helper/store/index.js";
 import { store } from "../store.js";
 
 const template = document.createElement("template");

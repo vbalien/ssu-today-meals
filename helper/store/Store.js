@@ -21,7 +21,16 @@ export class Store {
     }).bind(this);
   }
 
+  getState() {
+    // clone state
+    return { ...this.state };
+  }
+
   dispatch(action) {
+    // thunk
+    if (typeof action === "function")
+      return action(this.dispatch.bind(this), this.getState.bind(this));
+
     // state를 업데이트하고 immutable하도록 설정
     const oldState = this.state;
     this.state = this.reducer(undefined, action);
@@ -30,9 +39,5 @@ export class Store {
     // state 변경 콜백 호출
     for (const el of this.subscribeElements)
       el.stateChangedCallback && el.stateChangedCallback(oldState, this.state);
-  }
-
-  selector(resultFunc) {
-    return resultFunc(this.state);
   }
 }
