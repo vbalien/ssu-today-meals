@@ -23,7 +23,8 @@ export function connect(BaseElementClass, store) {
       });
 
       // 최초 1회 state변경 콜백 호출
-      this.stateChangedCallback(null, this.store.state);
+      this.stateChangedCallback &&
+        this.stateChangedCallback(null, this.store.state);
 
       // 원래 등록된 콜백 호출
       super.connectedCallback();

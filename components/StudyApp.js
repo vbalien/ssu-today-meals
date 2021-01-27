@@ -23,18 +23,6 @@ export default class StudyApp extends HTMLElement {
   connectedCallback() {
     this.store.dispatch({ type: "CHANGE_TITLE", value: "안녕 세상" });
   }
-
-  attributeChangedCallback(name, oldValue, newValue) {
-    console.log("Custom element attributes changed.");
-  }
-
-  stateChangedCallback(oldState, newState) {
-    console.log(oldState, newState);
-  }
-
-  static get observedAttributes() {
-    return ["l"];
-  }
 }
 
 customElements.define("study-app", connect(StudyApp, store));
