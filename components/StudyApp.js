@@ -8,7 +8,7 @@ template.innerHTML = `
     background-color: red;
   }
   </style>
-  <div>test</div>
+  <div>Hello</div>
 `;
 
 export default class StudyApp extends HTMLElement {
@@ -16,7 +16,7 @@ export default class StudyApp extends HTMLElement {
     super();
 
     // shadow dom 생성
-    const shadow = this.attachShadow({ mode: "closed" });
+    const shadow = this.attachShadow({ mode: "open" });
     shadow.appendChild(template.content.cloneNode(true));
   }
 

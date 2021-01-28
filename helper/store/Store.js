@@ -4,7 +4,10 @@ export class Store {
   subscribeElements = [];
 
   constructor(reducer) {
-    this.reducer = reducer;
+    Reflect.defineProperty(this, "reducer", {
+      value: reducer,
+      writable: false, // 읽기전용
+    });
 
     // state 초기화
     this.dispatch({ type: "@@INIT" });

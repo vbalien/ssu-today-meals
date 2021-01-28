@@ -27,12 +27,12 @@ export function connect(BaseElementClass, store) {
         this.stateChangedCallback(null, this.store.state);
 
       // 원래 등록된 콜백 호출
-      super.connectedCallback();
+      super.connectedCallback && super.connectedCallback();
     }
 
     disconnectedCallback() {
       // 원래 등록된 콜백 호출
-      super.disconnectedCallback();
+      super.disconnectedCallback && super.disconnectedCallback();
 
       // 구독 해제
       this._unsubscribe();
