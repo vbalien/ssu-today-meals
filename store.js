@@ -1,16 +1,16 @@
-import { CHANGE_TITLE } from "./constants/ActionTypes.js";
+import { SET_ANITABLE } from "./constants/ActionTypes.js";
 import { Store } from "./helper/store/Store.js";
 
 const initialState = {
-  title: "hello world!",
+  anitable: [],
 };
 
 function reducer(state = initialState, action) {
   switch (action.type) {
-    case CHANGE_TITLE:
+    case SET_ANITABLE:
       return {
         ...state,
-        title: action.value,
+        anitable: action.value,
       };
       break;
     default:

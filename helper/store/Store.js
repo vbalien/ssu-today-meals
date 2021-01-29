@@ -35,12 +35,13 @@ export class Store {
       return action(this.dispatch.bind(this), this.getState.bind(this));
 
     // state를 업데이트하고 immutable하도록 설정
-    const oldState = this.state;
+    const oldState = this.getState();
     this.state = this.reducer(undefined, action);
     Object.freeze(this.state);
 
     // state 변경 콜백 호출
     for (const el of this.subscribeElements)
-      el.stateChangedCallback && el.stateChangedCallback(oldState, this.state);
+      el.stateChangedCallback &&
+        el.stateChangedCallback(oldState, this.getState());
   }
 }

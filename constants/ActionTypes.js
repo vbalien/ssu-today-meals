@@ -1,1 +1,1 @@
-export const CHANGE_TITLE = "CHANGE_TITLE";
+export const SET_ANITABLE = "SET_ANITABLE";

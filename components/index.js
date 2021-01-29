@@ -1,1 +1,1 @@
-export * from "./StudyApp.js";
+export * from "./AniTable.js";
