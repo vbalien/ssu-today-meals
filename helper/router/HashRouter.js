@@ -32,12 +32,12 @@ export class HashRouter {
         typeof currentRotue.redirect === "function"
           ? currentRotue.redirect()
           : currentRotue.redirect;
-      window.location = `#${goto}`;
+      this.location = goto;
       return;
     }
 
     // path 파싱
-    const matches = this.path.match(currentRotue.path);
+    const matches = this.location.match(currentRotue.path);
     const path = matches[0];
     // rotue가 바뀐것인지 체크
     if (this.oldUrl && this.oldUrl.hash.slice(1) === path) return;
@@ -45,22 +45,40 @@ export class HashRouter {
     // match 결과 업데이트
     if (matches && matches.groups) this.groups = matches.groups;
 
-    // 원래 있던 Element를 지우고 새로운 Element를 등록
-    const newEl = document.createElement(currentRotue.component);
-    if (this.currentChild) this.targetElement.removeChild(this.currentChild);
+    // 원래 있던 Element와 같지 않으면
+    let newEl = null;
+    if (
+      !this.currentChild ||
+      this.currentChild.tagName.toLowerCase() !== currentRotue.component
+    ) {
+      // 원래 있던 Element를 지우고 새로운 Element를 등록
+      newEl = document.createElement(currentRotue.component);
+      if (this.currentChild) this.targetElement.removeChild(this.currentChild);
+    } else newEl = this.currentChild;
 
     // match된 값을  attr으로 넘겨줌
     for (const g in this.groups) newEl.setAttribute(g, this.groups[g]);
-    this.targetElement.appendChild(newEl);
-    this.currentChild = newEl;
+
+    // 자식으로 추가
+    if (
+      !this.currentChild ||
+      this.currentChild.tagName.toLowerCase() !== currentRotue.component
+    ) {
+      this.targetElement.appendChild(newEl);
+      this.currentChild = newEl;
+    }
   }
 
-  get path() {
+  get location() {
     return this.url.hash.slice(1) || "/";
   }
 
+  set location(path) {
+    window.location = `#${path}`;
+  }
+
   get matchedRoute() {
-    return this.routes.find((route) => RegExp(route.path).test(this.path));
+    return this.routes.find((route) => RegExp(route.path).test(this.location));
   }
 
   hashChange(event) {
