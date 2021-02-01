@@ -57,7 +57,8 @@ export class HashRouter {
     } else newEl = this.currentChild;
 
     // match된 값을  attr으로 넘겨줌
-    for (const g in this.groups) newEl.setAttribute(g, this.groups[g]);
+    for (const g in this.groups)
+      newEl.setAttribute(HashRouter.toKebabCase(g), this.groups[g]);
 
     // 자식으로 추가
     if (
@@ -85,5 +86,12 @@ export class HashRouter {
     this.url = new URL(event.newURL);
     this.oldUrl = new URL(event.oldURL);
     this.updateRoute();
+  }
+
+  // kebab case로 변환
+  static toKebabCase(str) {
+    return str.replace(/([A-Z])/g, (match, p1, offset, str) =>
+      offset === 0 ? p1.toLowerCase() : `-${p1.toLowerCase()}`
+    );
   }
 }
