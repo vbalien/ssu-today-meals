@@ -1,9 +1,9 @@
 name: Crawl
 
 on:
-  - push
   schedule:
     - cron: "0 1 * * *" # every day at 1am
+  workflow_dispatch:
 
 jobs:
   crawl:
@@ -21,7 +21,7 @@ jobs:
       - name: Commit json files
         run: |
           git config user.email "crawlbot@alien.moe"
-          git config user.name "Crawl bot"
+          git config user.name "Crawl Bot"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git checkout master
           git add -f data
