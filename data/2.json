@@ -1,0 +1,15 @@
+{
+  "name": "도담식당",
+  "menus": [
+    {
+      "kind": "중식1",
+      "foods": "<div><div style=\"font-size: 12.53px;\"><b style=\"font-size: 9.4pt;\"><font color=\"#999900\">원기회복 보양식</font></b><br></div><div style=\"font-size: 12.53px;\"><b><font color=\"#993300\">황기,엄나무,오가피,수삼을 넣어&nbsp;</font></b><strong style=\"font-size: 12.53px;\"><font color=\"#993300\">푹~끓인&nbsp;</font></strong></div><div style=\"font-size: 12.53px;\"><strong style=\"font-size: 12.53px;\"><font color=\"#993300\"><b><font color=\"#ff0000\">#한방닭곰탕</font></b></font></strong></div><div style=\"font-size: 12.53px;\"><strong style=\"font-size: 12.53px;\"><font color=\"#993300\"><b><font color=\"#ff0000\"><b><font color=\"#ff0000\"><font color=\"#ff9900\">김치 소가 듬뿍 들어간 매콤한</font> </font></b></font></b></font></strong></div><div><div><b><font color=\"#ff0000\">#메밀전병</font></b></div><b style=\"color: rgb(255, 153, 255);\"><br></b></div><div style=\"font-size: 12.53px;\"><b style=\"font-size: 9.4pt;\">한방닭곰탕*메밀전병</b><br></div><div style=\"font-size: 12.53px;\"></div><div><span style=\"font-size: 12.53px;\">Oriental Chicken Soup</span></div><div><span style=\"font-size: 12.53px;\">*Buckwheat Pancakes</span></div><div><span style=\"font-size: 12.53px;\"><br></span></div><div><span style=\"font-size: 12.53px;\"><strong>솎음단배추나물</strong><br>깍두기<br>찰흑미밥<br></span></div></div><div><span style=\"font-size: 12.53px;\">야구르트</span></div>",
+      "price": 5000
+    },
+    {
+      "kind": "석식1",
+      "foods": "<div><div style=\"font-size: 12.53px;\"><b style=\"font-size: 12.53px;\"><font color=\"#009900\">치즈, 라면사리, 다양한 모듬햄, 갖가지 채소</font>가&nbsp;</b><br></div><div style=\"font-size: 12.53px;\"><span style=\"font-size: 12.53px;\"><b>함께 어우러진&nbsp;</b></span></div><div style=\"font-size: 12.53px;\"><span style=\"font-size: 12.53px;\"></span><b style=\"font-size: 12.53px;\"><font color=\"#ff0000\">#치즈부대찌개</font></b></div><div style=\"font-size: 12.53px;\"><div style=\"font-size: 12.53px;\"><b><font color=\"#ff0000\"><font color=\"#ff6600\">입에서 톡톡 튀는 날치알</font><font color=\"#000000\">이</font></font></b></div><div style=\"font-size: 12.53px;\"><b><font color=\"#ff0000\"><font color=\"#ff6600\">보들보들한 계란말이</font><font color=\"#000000\">에 </font><font color=\"#000000\">쏙~</font></font></b></div><div style=\"font-size: 12.53px;\"><b><font color=\"#993300\">#날치알계란말이<br></font></b></div><br></div><div style=\"font-size: 12.53px;\"><b>치즈부대찌개</b></div><div style=\"font-size: 12.53px;\"><b>*날치알계란말이- 5.0</b></div><div><span style=\"font-size: 12.53px;\">Cheese Sausage Stew</span></div><div><span style=\"font-size: 12.53px;\">*Flying Fish Egg Roll<span style=\"font-size: 12.53px;\"><br></span></span></div><div><span style=\"font-size: 12.53px;\"><br></span></div><div><span style=\"font-size: 12.53px;\">봄동나물<br>총각김치<br>잡곡밥<br></span></div></div>",
+      "price": 0
+    }
+  ]
+}
