@@ -29,14 +29,17 @@ export class Store {
     return { ...this.state };
   }
 
-  dispatch(action) {
+  async dispatch(action) {
     // thunk
     if (typeof action === "function")
-      return action(this.dispatch.bind(this), this.getState.bind(this));
+      return await action(this.dispatch.bind(this), this.getState.bind(this)());
 
     // state를 업데이트하고 immutable하도록 설정
     const oldState = this.getState();
-    this.state = this.reducer(undefined, action);
+    this.state = this.reducer(
+      action.type === "@@INIT" ? undefined : this.getState(),
+      action
+    );
     Object.freeze(this.state);
 
     // state 변경 콜백 호출

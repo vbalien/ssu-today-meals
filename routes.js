@@ -1,4 +1,4 @@
 export const routes = [
-  { path: /^\/$/, redirect: () => `/w/${new Date().getDay()}` },
-  { path: /^\/w\/(?<week>\d+)$/, component: "ani-table" },
+  { path: /^\/$/, redirect: "/place/1" },
+  { path: /^\/place\/(?<placeId>\d+)$/, component: "meal-app" },
 ];

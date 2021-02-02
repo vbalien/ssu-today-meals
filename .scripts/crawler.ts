@@ -14,7 +14,7 @@ interface Place {
 interface Menu {
   kind: string;
   foods: string;
-  price: string;
+  price: number;
 }
 
 async function getMenus(
@@ -41,14 +41,14 @@ async function getMenus(
   if (matches) {
     for (const m of matches) {
       if (m.groups?.foods) {
-        let price = "";
+        let price = 0;
         const priceM = m.groups.foods.match(/ - (\d+\.\d+)/);
         if (priceM) {
-          price = priceM[1];
+          price = Number.parseFloat(priceM[1]) * 1000;
         }
         result.push({
           kind: m.groups.kind,
-          foods: m.groups.foods,
+          foods: m.groups.foods.replace(/ - (\d+\.\d+)/gi, "").trim(),
           price,
         });
       }

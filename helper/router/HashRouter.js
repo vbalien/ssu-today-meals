@@ -4,6 +4,7 @@ export class HashRouter {
   currentChild = null;
   url = null;
   oldUrl = null;
+  groups = null;
 
   constructor(targetElement) {
     this.targetElement = targetElement;
