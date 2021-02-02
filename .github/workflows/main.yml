@@ -1,0 +1,26 @@
+name: Crawl
+
+on:
+  - push
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Deno
+        uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.x
+      - name: Run crawler
+        run: deno run --allow-write --allow-net ./crawler.ts
+        env:
+          TZ: "Asia/Seoul"
+      - name: Commit json files
+        run: |
+          git config user.email "webmaster@alien.moe"
+          git config user.name "Crawl bot"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git checkout master
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update json files"; git push origin master)
