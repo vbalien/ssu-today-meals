@@ -1,0 +1,21 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: crawl
+    image: hayd/deno:alpine
+    environment:
+      GITHUB_TOKEN:
+        from_secret: GITHUB_TOKEN
+      TZ: "Asia/Seoul"
+    commands:
+      - apk add --no-cache git
+      - deno run --allow-write --allow-net ./.scripts/crawler.ts
+      - git remote set-url origin https://${GITHUB_TOKEN}@github.com/${DRONE_REPO}.git
+      - git checkout master
+      - git add .
+      - git diff --quiet && git diff --staged --quiet || (git commit --author="Crawl Bot <crawlbot@alien.moe>" -m "Update json files"; git push origin master)
+    when:
+      event:
+        - cron
