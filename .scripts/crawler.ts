@@ -25,6 +25,7 @@ async function getMenus(
   const re = new RegExp(
     /\<td class="menu_nm"\>(?<kind>.*?)<\/td\>.*?\<td class="menu_list"\>(?<foods>.*?)<\/td>/gis,
   );
+  const rePrice = new RegExp(/\s*?-\s*?(\d+\.\d+)/i);
   const reKitchen = new RegExp(
     /\>(?<foods>[^\<]*? - \d+\.\d+?)\</gis,
   );
@@ -42,13 +43,13 @@ async function getMenus(
     for (const m of matches) {
       if (m.groups?.foods) {
         let price = 0;
-        const priceM = m.groups.foods.match(/ - (\d+\.\d+)/);
+        const priceM = m.groups.foods.match(rePrice);
         if (priceM) {
           price = Number.parseFloat(priceM[1]) * 1000;
         }
         result.push({
           kind: m.groups.kind,
-          foods: m.groups.foods.replace(/ - (\d+\.\d+)/gi, "").trim(),
+          foods: m.groups.foods.replaceAll(rePrice, "").trim(),
           price,
         });
       }
