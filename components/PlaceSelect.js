@@ -5,9 +5,24 @@ import { store } from "../store.js";
 
 const template = document.createElement("template");
 template.innerHTML = `
-  <select id="select">
-    <option selected>데이터를 가져오는 중...</option>
-  </select>
+<style>
+#select {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #aaa;
+  background-color: #6272a4;
+  color: #f8f8f2;
+  font-size: 28px;
+  text-align-last:center;
+}
+</style>
+<select id="select">
+  <option selected>데이터를 가져오는 중...</option>
+</select>
 `;
 
 export default class PlaceSelect extends HTMLElement {

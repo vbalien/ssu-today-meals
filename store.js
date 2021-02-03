@@ -9,6 +9,7 @@ const initialState = {
   places: [],
   menus: [],
   isLoading: false,
+  lastUpdated: 0,
 };
 
 function reducer(state = initialState, action) {
@@ -16,7 +17,8 @@ function reducer(state = initialState, action) {
     case SET_METADATA:
       return {
         ...state,
-        places: action.value,
+        lastUpdated: action.lastUpdated,
+        places: action.places,
       };
     case SET_PLACE:
       return {

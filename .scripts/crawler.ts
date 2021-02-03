@@ -49,7 +49,7 @@ async function getMenus(
         }
         result.push({
           kind: m.groups.kind,
-          foods: m.groups.foods.replaceAll(rePrice, "").trim(),
+          foods: m.groups.foods.replace(rePrice, "").trim(),
           price,
         });
       }
@@ -57,16 +57,6 @@ async function getMenus(
   }
 
   return result;
-}
-
-try {
-  await Deno.writeTextFile(
-    `./data/metadata.json`,
-    JSON.stringify(places, null, 2),
-  );
-  console.log(`File written to ./data/metadata.json`);
-} catch (err) {
-  console.error(err);
 }
 
 for (const place of places) {
@@ -83,6 +73,16 @@ for (const place of places) {
   } catch (err) {
     console.error(err);
   }
+}
+
+try {
+  await Deno.writeTextFile(
+    `./data/metadata.json`,
+    JSON.stringify({ places, lastUpdated: Date.now() }, null, 2),
+  );
+  console.log(`File written to ./data/metadata.json`);
+} catch (err) {
+  console.error(err);
 }
 
 export {};

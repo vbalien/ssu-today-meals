@@ -9,7 +9,7 @@ export const fetchMetadata = () => async (dispatch) => {
   try {
     const res = await getMetadata();
     const data = await res.json();
-    dispatch({ type: SET_METADATA, value: data });
+    dispatch({ type: SET_METADATA, ...data });
   } catch (err) {
     alert("정보를 가져오는 중 오류가 발생하였습니다.");
   }

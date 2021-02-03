@@ -4,6 +4,7 @@ import { store } from "../store.js";
 
 const template = document.createElement("template");
 template.innerHTML = `
+  <span id="last-updated"></span>
   <place-select id="select"></place-select>
   <menu-list></menu-list>
 `;
@@ -17,6 +18,7 @@ export default class MealApp extends HTMLElement {
     shadow.appendChild(template.content.cloneNode(true));
     this.listEl = shadow.getElementById("list");
     this.selectEl = shadow.getElementById("select");
+    this.lastUpdatedEl = shadow.getElementById("last-updated");
   }
 
   updatePlace(pid) {
@@ -28,6 +30,13 @@ export default class MealApp extends HTMLElement {
       this.updatePlace(newVal);
       this.store.dispatch(fetchPlace(newVal));
     }
+  }
+
+  stateChangedCallback(oldState, newState) {
+    if (oldState && oldState.lastUpdated !== newState.lastUpdated)
+      this.lastUpdatedEl.innerText = `최근 업데이트: ${new Date(
+        newState.lastUpdated
+      ).toLocaleString()}`;
   }
 
   static get observedAttributes() {

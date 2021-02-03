@@ -1,26 +1,29 @@
-[
-  {
-    "id": 1,
-    "name": "학생식당"
-  },
-  {
-    "id": 2,
-    "name": "도담식당"
-  },
-  {
-    "id": 7,
-    "name": "FACULTY LOUNGE"
-  },
-  {
-    "id": 4,
-    "name": "스낵코너"
-  },
-  {
-    "id": 5,
-    "name": "푸드코트"
-  },
-  {
-    "id": 6,
-    "name": "THE KITCHEN"
-  }
-]
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "학생식당"
+    },
+    {
+      "id": 2,
+      "name": "도담식당"
+    },
+    {
+      "id": 7,
+      "name": "FACULTY LOUNGE"
+    },
+    {
+      "id": 4,
+      "name": "스낵코너"
+    },
+    {
+      "id": 5,
+      "name": "푸드코트"
+    },
+    {
+      "id": 6,
+      "name": "THE KITCHEN"
+    }
+  ],
+  "lastUpdated": 1612310352935
+}

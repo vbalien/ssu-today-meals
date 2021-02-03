@@ -3,13 +3,13 @@ import { store } from "../store.js";
 
 const template = document.createElement("template");
 template.innerHTML = `
-  <style>
-  #list {
-    display: flex;
-    flex-direction: column;
-  }
-  </style>
-  <div id="list"></div>
+<style>
+#list {
+  display: flex;
+  flex-direction: column;
+}
+</style>
+<div id="list"></div>
 `;
 export default class MenuList extends HTMLElement {
   constructor() {
