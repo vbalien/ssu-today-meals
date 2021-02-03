@@ -1,7 +1,7 @@
 import {
   SET_LOADING,
   SET_METADATA,
-  SET_PLACE,
+  SET_MENUS,
 } from "./constants/ActionTypes.js";
 import { Store } from "./helper/store/Store.js";
 
@@ -20,10 +20,10 @@ function reducer(state = initialState, action) {
         lastUpdated: action.lastUpdated,
         places: action.places,
       };
-    case SET_PLACE:
+    case SET_MENUS:
       return {
         ...state,
-        menus: action.menus,
+        menus: action.value,
       };
     case SET_LOADING:
       return {

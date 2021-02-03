@@ -1,5 +1,5 @@
 import {
-  SET_PLACE,
+  SET_MENUS,
   SET_METADATA,
   SET_LOADING,
 } from "./constants/ActionTypes.js";
@@ -20,7 +20,7 @@ export const fetchPlace = (placeId) => async (dispatch) => {
     dispatch({ type: SET_LOADING, value: true });
     const res = await getPlace(placeId);
     const data = await res.json();
-    dispatch({ type: SET_PLACE, name: data.name, menus: data.menus });
+    dispatch({ type: SET_MENUS, name: data.name, value: data.menus });
   } catch (err) {
     alert("정보를 가져오는 중 오류가 발생하였습니다.");
   } finally {
