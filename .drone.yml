@@ -10,11 +10,15 @@ steps:
         from_secret: GITHUB_TOKEN
     commands:
       - apk add --no-cache git
-      - deno run --allow-write --allow-net ./.scripts/crawler.ts
       - git remote set-url origin https://${GITHUB_TOKEN}@github.com/${DRONE_REPO}.git
-      - git checkout master
+      - git fetch --all
+      - git checkout -b gh-pages origin/gh-pages
+      - git rebase master
+      - deno run --allow-write --allow-net ./.scripts/crawler.ts
       - git add .
-      - git diff --quiet && git diff --staged --quiet || (git commit --author="Crawl Bot <crawlbot@alien.moe>" -m "Update json files"; git push origin master)
+      - git diff --quiet && git diff --staged --quiet || (git commit --author="Crawl Bot <crawlbot@alien.moe>" -m "Update json files"; git push origin gh-pages)
     when:
+      branch:
+        - master
       event:
         - cron
