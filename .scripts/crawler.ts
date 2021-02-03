@@ -82,7 +82,7 @@ for (const place of places) {
 try {
   await Deno.writeTextFile(
     `./data/metadata.json`,
-    JSON.stringify({ places, lastUpdated: currentDate.getTime() }, null, 2),
+    JSON.stringify({ places, lastUpdated: Date.now() }, null, 2),
   );
   console.log(`File written to ./data/metadata.json`);
 } catch (err) {
