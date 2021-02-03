@@ -7,6 +7,7 @@ template.innerHTML = `
 #list {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 </style>
 <div id="list"></div>

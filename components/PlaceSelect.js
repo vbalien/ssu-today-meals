@@ -16,7 +16,7 @@ template.innerHTML = `
   box-shadow: 0px 0px 5px #aaa;
   background-color: #6272a4;
   color: #f8f8f2;
-  font-size: 28px;
+  font-size: 22px;
   text-align-last:center;
 }
 </style>

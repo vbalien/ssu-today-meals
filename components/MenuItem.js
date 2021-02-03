@@ -9,6 +9,7 @@ template.innerHTML = `
   border-radius: 18px;
   box-shadow: 0px 0px 5px #aaa;
   display: flex;
+  flex-direction: column;
   overflow: hidden;
   background-color: #fff;
 }
@@ -19,40 +20,34 @@ template.innerHTML = `
   flex-direction: column;
   justify-content: center;
 }
-#right-area {
+#wrap {
   display: flex;
-  position: relative;
-  background-color: #bd93f9;
-  min-width: 200px;
-  flex-grow: 0;
-  justify-content: center;
+  font-size: 22px;
 }
 #price {
+  height: 40px;
+  padding: 10px;
+  background-color: #bd93f9;
   color: #f8f8f2;
   font-weight: bold;
-  font-size: 28px;
   align-self: center;
+  border-radius: 0 0 18px 0;
 }
 #kind {
   display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 0 18px;
   padding: 10px;
-  height: 50px;
+  height: 40px;
   background-color: #ff79c6;
   color: #f8f8f2;
   font-weight: bold;
-  font-size: 28px;
 }
 </style>
 <div id="root">
-  <div id="content"></div>
-  <div id="right-area">
+  <div id="wrap">
     <div id="kind"></div>
-    <span id="price"></span>
+    <div id="price"></div>
   </div>
+  <div id="content"></div>
 </div>
 `;
 export default class MenuItem extends HTMLElement {
