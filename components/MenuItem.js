@@ -23,7 +23,7 @@ template.innerHTML = `
   display: flex;
   position: relative;
   background-color: #bd93f9;
-  width: 200px;
+  min-width: 200px;
   flex-grow: 0;
   justify-content: center;
 }
