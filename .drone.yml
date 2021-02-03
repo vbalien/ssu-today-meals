@@ -8,7 +8,6 @@ steps:
     environment:
       GITHUB_TOKEN:
         from_secret: GITHUB_TOKEN
-      TZ: "Asia/Seoul"
     commands:
       - apk add --no-cache git
       - deno run --allow-write --allow-net ./.scripts/crawler.ts

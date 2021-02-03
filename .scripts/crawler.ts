@@ -1,3 +1,5 @@
+import { time } from "https://denopkg.com/burhanahmeed/time.ts@v2.0.1/mod.ts";
+
 const places: Place[] = [
   { id: 1, name: "학생식당" },
   { id: 2, name: "도담식당" },
@@ -17,9 +19,11 @@ interface Menu {
   price: number;
 }
 
+const currentDate = time().tz("asia/seoul").t;
+
 async function getMenus(
   place: Place,
-  date: Date = new Date(),
+  date: Date = currentDate,
 ): Promise<Menu[]> {
   const result: Menu[] = [];
   const re = new RegExp(
@@ -27,7 +31,7 @@ async function getMenus(
   );
   const rePrice = new RegExp(/\s*?-\s*?(\d+\.\d+)/i);
   const reKitchen = new RegExp(
-    /\>(?<foods>[^\<]*? - \d+\.\d+?)\</gis,
+    /\>(?<foods>[^\<]*?\s*?-\s*?\d+\.\d+?)\</gis,
   );
   const res = await fetch(
     `http://m.soongguri.com/m_req/m_menu.php?rcd=${place.id}&sdt=${date
@@ -78,7 +82,7 @@ for (const place of places) {
 try {
   await Deno.writeTextFile(
     `./data/metadata.json`,
-    JSON.stringify({ places, lastUpdated: Date.now() }, null, 2),
+    JSON.stringify({ places, lastUpdated: currentDate.getTime() }, null, 2),
   );
   console.log(`File written to ./data/metadata.json`);
 } catch (err) {
