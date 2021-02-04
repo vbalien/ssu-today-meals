@@ -1,5 +1,6 @@
 import {
-  SET_LOADING,
+  REQUEST_PLACE,
+  REQUEST_PLACE_FINALLY,
   SET_METADATA,
   SET_MENUS,
 } from "./constants/ActionTypes.js";
@@ -10,6 +11,7 @@ const initialState = {
   menus: [],
   isLoading: false,
   lastUpdated: 0,
+  controller: new AbortController(),
 };
 
 function reducer(state = initialState, action) {
@@ -25,10 +27,16 @@ function reducer(state = initialState, action) {
         ...state,
         menus: action.value,
       };
-    case SET_LOADING:
+    case REQUEST_PLACE:
       return {
         ...state,
-        isLoading: action.value,
+        isLoading: action.waiting,
+        controller: action.controller,
+      };
+    case REQUEST_PLACE_FINALLY:
+      return {
+        ...state,
+        isLoading: false,
       };
     default:
       return state;

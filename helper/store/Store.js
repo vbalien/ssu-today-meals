@@ -32,7 +32,7 @@ export class Store {
   async dispatch(action) {
     // thunk
     if (typeof action === "function")
-      return await action(this.dispatch.bind(this), this.getState.bind(this)());
+      return await action(this.dispatch.bind(this), this.getState.bind(this));
 
     // state를 업데이트하고 immutable하도록 설정
     const oldState = this.getState();
