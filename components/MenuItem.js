@@ -5,24 +5,35 @@ template.innerHTML = `
   box-sizing: border-box;
 }
 #root {
+  position: relative;
   margin-top: 25px;
   border-radius: 18px;
   box-shadow: 0px 0px 5px #aaa;
   display: flex;
-  flex-direction: column;
   overflow: hidden;
   background-color: #fff;
 }
 #content {
   padding: 20px;
+  padding-top: 60px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-#wrap {
+#image {
+  display: none;
+  width: 240px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#tag {
+  position: absolute;
   display: flex;
   font-size: 22px;
+  left: 0;
+  top: 0;
 }
 #price {
   height: 40px;
@@ -43,11 +54,13 @@ template.innerHTML = `
 }
 </style>
 <div id="root">
-  <div id="wrap">
+  <div id="tag">
     <div id="kind"></div>
     <div id="price"></div>
   </div>
   <div id="content"></div>
+  <div id="image">
+  </div>
 </div>
 `;
 export default class MenuItem extends HTMLElement {
@@ -60,6 +73,7 @@ export default class MenuItem extends HTMLElement {
     this.contentEl = shadow.getElementById("content");
     this.priceEl = shadow.getElementById("price");
     this.kindEl = shadow.getElementById("kind");
+    this.imageEl = shadow.getElementById("image");
   }
 
   render() {}
@@ -76,6 +90,10 @@ export default class MenuItem extends HTMLElement {
     return this.getAttribute("foods");
   }
 
+  get image() {
+    return this.getAttribute("image");
+  }
+
   attributeChangedCallback(name, oldVal, newVal) {
     if (oldVal === newVal) return;
 
@@ -87,6 +105,10 @@ export default class MenuItem extends HTMLElement {
       case "foods":
         this.contentEl.innerHTML = this.foods;
         break;
+      case "image":
+        this.imageEl.style.display = "block";
+        this.imageEl.style.backgroundImage = `url('${this.image}')`;
+        break;
       case "kind":
         this.kindEl.style.display = "block";
         this.kindEl.innerText = this.kind;
@@ -96,7 +118,7 @@ export default class MenuItem extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ["price", "kind", "foods"];
+    return ["price", "kind", "foods", "image"];
   }
 }
 

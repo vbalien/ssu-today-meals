@@ -34,7 +34,8 @@ export default class MenuList extends HTMLElement {
     }
     for (const menu of menus) {
       const listItem = document.createElement("menu-item");
-      if (menu.kind) listItem.setAttribute("kind", menu.kind);
+      menu.kind && listItem.setAttribute("kind", menu.kind);
+      menu.image && listItem.setAttribute("image", menu.image);
       listItem.setAttribute("price", menu.price);
       listItem.setAttribute("foods", menu.foods);
       this.listEl.appendChild(listItem);

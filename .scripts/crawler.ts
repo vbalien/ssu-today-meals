@@ -1,12 +1,10 @@
-import { time } from "https://denopkg.com/burhanahmeed/time.ts@v2.0.1/mod.ts";
-
 const places: Place[] = [
   { id: 1, name: "학생식당" },
-  { id: 2, name: "도담식당" },
+  { id: 2, name: "숭실도담" },
   { id: 7, name: "FACULTY LOUNGE" },
-  { id: 4, name: "스낵코너" },
+  { id: 4, name: "스넥코너" },
   { id: 5, name: "푸드코트" },
-  { id: 6, name: "THE KITCHEN" },
+  { id: 6, name: "더 키친" },
 ];
 
 interface Place {
@@ -16,58 +14,88 @@ interface Place {
 interface Menu {
   kind: string;
   foods: string;
-  price: number;
+  price?: number;
+  image?: string;
 }
 
-const currentDate = time().tz("asia/seoul").t;
+const baseURL = "https://soongguri.com";
+
+async function getPlaceBody(pageBody: string, place: Place) {
+  const re = new RegExp(
+    `<td colspan="6" class="rest_nm">${place.name}<\\/td>.*?<table style="width:100%;" cellpadding="0" cellspacing="1" border="0" >.*?<\\/table>\\s*?<\\/td>\\s*?<\\/tr>`,
+    "gis",
+  );
+  const bodyMatch = pageBody.match(re);
+  if (bodyMatch && bodyMatch.length > 0) {
+    return bodyMatch[0];
+  }
+}
+
+function makeMenu(kind: string, foods: string, image?: string): Menu {
+  const rePrice = new RegExp(
+    /(?:\s*?-\s*?(\d+\.\d+))|(?:<br><span style='color:#767906;font-size:12pt;padding:5px;'>.*?<\/span>)/i,
+  );
+  const deletePattern = new RegExp(
+    rePrice.source +
+      `|(?:<img src='\\/images\\/ico_recmenu.gif'>)` +
+      `|(?:font-size: .*?;)`,
+    "gis",
+  );
+  let price = undefined;
+  const priceM = foods.match(rePrice);
+  foods = foods.replace(deletePattern, "").trim();
+  if (priceM) {
+    price = Number.parseFloat(priceM[1]) * 1000;
+  }
+  return ({
+    kind,
+    foods,
+    price,
+    image,
+  });
+}
 
 async function getMenus(
-  place: Place,
-  date: Date = currentDate,
+  placeBody: string,
+  isKitchen: boolean,
 ): Promise<Menu[]> {
   const result: Menu[] = [];
-  const re = new RegExp(
-    /\<td class="menu_nm"\>(?<kind>.*?)<\/td\>.*?\<td class="menu_list"\>(?<foods>.*?)<\/td>/gis,
+  const reMenuKind = new RegExp(/\<td class="rest_mn".*?\>(.*?)<\/td\>/gis);
+  const reMenu = new RegExp(
+    /\<td style="vertical-align:top;"\>(?<foods>.*?)\<\/td>.*?(?:\<td style="vertical-align:top;padding:0 0 0 3px;"\>.*?\<img.*?src='(?<image>.*?)'.*?)?\<\/table\>/gis,
   );
-  const rePrice = new RegExp(/\s*?-\s*?(\d+\.\d+)/i);
-  const reKitchen = new RegExp(
-    /\>(?<foods>[^\<]*?\s*?-\s*?\d+\.\d+?)\</gis,
-  );
-  const res = await fetch(
-    `http://m.soongguri.com/m_req/m_menu.php?rcd=${place.id}&sdt=${date
-      .getFullYear().toString() +
-      (date.getMonth() + 1).toString().padStart(2, "0") +
-      date.getDay().toString().padStart(2, "0")}`,
-  );
-  const body = await res.text();
+  const reKitchenMenu = new RegExp(/\>([^\<]*?\s*?-\s*?\d+\.\d+?)\</gis);
 
-  const matches = body.matchAll(place.id === 6 ? reKitchen : re);
+  const kindMatches = [...placeBody.matchAll(reMenuKind)];
+  const menuMatches = [...placeBody.matchAll(reMenu)];
 
-  if (matches) {
-    for (const m of matches) {
-      if (m.groups?.foods) {
-        let price = 0;
-        const priceM = m.groups.foods.match(rePrice);
-        if (priceM) {
-          price = Number.parseFloat(priceM[1]) * 1000;
-        }
-        result.push({
-          kind: m.groups.kind,
-          foods: m.groups.foods.replace(rePrice, "").trim(),
-          price,
-        });
+  for (let i = 0; i < kindMatches.length; ++i) {
+    const kind = kindMatches[i][1];
+    const menu = menuMatches[i].groups;
+    if (!menu) continue;
+    const image = menu.image && `${baseURL}${menu.image}`;
+    if (isKitchen) {
+      const matches = menu.foods.matchAll(reKitchenMenu);
+      for (const m of matches) {
+        result.push(makeMenu(kind, m[1]));
       }
+    } else {
+      const data = makeMenu(kind, menu.foods, image);
+      data.foods && result.push(data);
     }
   }
 
   return result;
 }
 
+const pageBody = await (await fetch(`${baseURL}/main.php?mkey=2&w=3`)).text();
+
 for (const place of places) {
+  const placeBody = await getPlaceBody(pageBody, place);
   try {
     const data = {
       name: place.name,
-      menus: await getMenus(place),
+      menus: placeBody ? await getMenus(placeBody, place.id === 6) : [],
     };
     await Deno.writeTextFile(
       `./data/${place.id}.json`,
