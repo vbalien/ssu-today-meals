@@ -91,8 +91,8 @@ async function getMenus(
 const pageBody = await (await fetch(`${baseURL}/main.php?mkey=2&w=3`)).text();
 
 for (const place of places) {
-  const placeBody = await getPlaceBody(pageBody, place);
   try {
+    const placeBody = await getPlaceBody(pageBody, place);
     const data = {
       name: place.name,
       menus: placeBody ? await getMenus(placeBody, place.id === 6) : [],
