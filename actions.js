@@ -12,7 +12,7 @@ export const fetchMetadata = () => async (dispatch) => {
     const data = await res.json();
     dispatch({ type: SET_METADATA, ...data });
   } catch (err) {
-    alert("정보를 가져오는 중 오류가 발생하였습니다.");
+    if (err instanceof TypeError) alert(err.message);
   }
 };
 
@@ -26,7 +26,7 @@ export const fetchPlace = (placeId) => async (dispatch, getState) => {
     const data = await res.json();
     dispatch({ type: SET_MENUS, name: data.name, value: data.menus });
   } catch (err) {
-    alert("정보를 가져오는 중 오류가 발생하였습니다.");
+    if (err instanceof TypeError) alert(err.message);
   } finally {
     dispatch({
       type: REQUEST_PLACE_FINALLY,
