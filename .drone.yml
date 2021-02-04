@@ -17,8 +17,9 @@ steps:
       - deno run --allow-write --allow-net ./.scripts/crawler.ts
       - git add .
       - git diff --quiet && git diff --staged --quiet || (git commit --author="Crawl Bot <crawlbot@alien.moe>" -m "Update json files at `date +'%Y-%m-%d'`"; git push origin gh-pages)
-    when:
-      branch:
-        - master
-      event:
-        - cron
+
+trigger:
+  branch:
+    - master
+  event:
+    - cron
