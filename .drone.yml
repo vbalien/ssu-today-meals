@@ -8,8 +8,9 @@ steps:
     environment:
       GITHUB_TOKEN:
         from_secret: GITHUB_TOKEN
+      TZ: "Asia/Seoul"
     commands:
-      - apk add --no-cache git
+      - apk add --no-cache git tzdata
       - git remote set-url origin https://${GITHUB_TOKEN}@github.com/${DRONE_REPO}.git
       - git fetch --all
       - git checkout -b gh-pages origin/gh-pages
