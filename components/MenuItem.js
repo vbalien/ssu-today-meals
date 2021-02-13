@@ -36,6 +36,7 @@ template.innerHTML = `
   top: 0;
 }
 #price {
+  display: none;
   height: 40px;
   padding: 10px;
   background-color: #bd93f9;
@@ -99,6 +100,7 @@ export default class MenuItem extends HTMLElement {
 
     switch (name) {
       case "price":
+        this.priceEl.style.display = "block";
         this.priceEl.innerText =
           this.price.replace(/\B(?=(\d{3})+(?!\d))/, ",") + "원";
         break;
