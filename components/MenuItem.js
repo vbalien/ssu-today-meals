@@ -35,18 +35,18 @@ template.innerHTML = `
   left: 0;
   top: 0;
 }
+#tag > :last-of-type {
+  border-radius: 0 0 18px 0;
+}
 #price {
-  display: none;
   height: 40px;
   padding: 10px;
   background-color: #bd93f9;
   color: #f8f8f2;
   font-weight: bold;
   align-self: center;
-  border-radius: 0 0 18px 0;
 }
 #kind {
-  display: none;
   padding: 10px;
   height: 40px;
   background-color: #ff79c6;
@@ -72,12 +72,15 @@ export default class MenuItem extends HTMLElement {
     const shadow = this.attachShadow({ mode: "open" });
     shadow.appendChild(template.content.cloneNode(true));
     this.contentEl = shadow.getElementById("content");
-    this.priceEl = shadow.getElementById("price");
-    this.kindEl = shadow.getElementById("kind");
     this.imageEl = shadow.getElementById("image");
-  }
+    this.tagEl = shadow.getElementById("tag");
 
-  render() {}
+    this.priceEl = shadow.getElementById("price");
+    this.tagEl.removeChild(this.priceEl);
+
+    this.kindEl = shadow.getElementById("kind");
+    this.tagEl.removeChild(this.kindEl);
+  }
 
   get price() {
     return this.getAttribute("price");
@@ -100,7 +103,7 @@ export default class MenuItem extends HTMLElement {
 
     switch (name) {
       case "price":
-        this.priceEl.style.display = "block";
+        this.tagEl.appendChild(this.priceEl);
         this.priceEl.innerText =
           this.price.replace(/\B(?=(\d{3})+(?!\d))/, ",") + "원";
         break;
@@ -112,7 +115,7 @@ export default class MenuItem extends HTMLElement {
         this.imageEl.style.backgroundImage = `url('${this.image}')`;
         break;
       case "kind":
-        this.kindEl.style.display = "block";
+        this.tagEl.appendChild(this.kindEl);
         this.kindEl.innerText = this.kind;
         break;
       default:
