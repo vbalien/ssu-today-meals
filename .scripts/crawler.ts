@@ -20,7 +20,7 @@ interface Menu {
 
 const baseURL = "https://soongguri.com";
 
-async function getPlaceBody(pageBody: string, place: Place) {
+function getPlaceBody(pageBody: string, place: Place) {
   const re = new RegExp(
     `<td colspan="6" class="rest_nm">${place.name}<\\/td>.*?<table style="width:100%;" cellpadding="0" cellspacing="1" border="0" >.*?<\\/table>\\s*?<\\/td>\\s*?<\\/tr>`,
     "gis",
@@ -55,10 +55,10 @@ function makeMenu(kind: string, foods: string, image?: string): Menu {
   });
 }
 
-async function getMenus(
+function getMenus(
   placeBody: string,
   isKitchen: boolean,
-): Promise<Menu[]> {
+): Menu[] {
   const result: Menu[] = [];
   const reMenuKind = new RegExp(/\<td class="rest_mn".*?\>(.*?)<\/td\>/gis);
   const reMenu = new RegExp(
