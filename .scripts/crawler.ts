@@ -1,3 +1,5 @@
+import { equal } from "https://deno.land/std/testing/asserts.ts";
+
 const places: Place[] = [
   { id: 1, name: "학생식당" },
   { id: 2, name: "숭실도담" },
@@ -89,32 +91,42 @@ function getMenus(
 }
 
 const pageBody = await (await fetch(`${baseURL}/main.php?mkey=2&w=3`)).text();
+let modified = false;
 
 for (const place of places) {
   try {
     const placeBody = await getPlaceBody(pageBody, place);
-    const data = {
-      name: place.name,
-      menus: placeBody ? await getMenus(placeBody, place.id === 6) : [],
-    };
-    await Deno.writeTextFile(
-      `./data/${place.id}.json`,
-      JSON.stringify(data, null, 2),
+    const newData = JSON.stringify(
+      {
+        name: place.name,
+        menus: placeBody ? await getMenus(placeBody, place.id === 6) : [],
+      },
+      null,
+      2,
     );
-    console.log(`File written to ./data/${place.id}.json`);
+    const oldData = Deno.readTextFileSync(`./data/${place.id}.json`);
+    if (oldData !== newData) {
+      modified = true;
+      await Deno.writeTextFile(
+        `./data/${place.id}.json`,
+        newData,
+      );
+      console.log(`File written to ./data/${place.id}.json`);
+    }
   } catch (err) {
     console.error(err);
   }
 }
 
-try {
-  await Deno.writeTextFile(
-    `./data/metadata.json`,
-    JSON.stringify({ places, lastUpdated: Date.now() }, null, 2),
-  );
-  console.log(`File written to ./data/metadata.json`);
-} catch (err) {
-  console.error(err);
+if (modified) {
+  try {
+    await Deno.writeTextFile(
+      `./data/metadata.json`,
+      JSON.stringify({ places, lastUpdated: Date.now() }, null, 2),
+    );
+    console.log(`File written to ./data/metadata.json`);
+  } catch (err) {
+    console.error(err);
+  }
 }
-
 export {};
