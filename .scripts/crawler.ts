@@ -1,5 +1,3 @@
-import { equal } from "https://deno.land/std/testing/asserts.ts";
-
 const places: Place[] = [
   { id: 1, name: "학생식당" },
   { id: 2, name: "숭실도담" },
