@@ -22,7 +22,7 @@ const baseURL = "https://soongguri.com";
 
 function getPlaceBody(pageBody: string, place: Place) {
   const re = new RegExp(
-    `<td colspan="6" class="rest_nm">${place.name}<\\/td>.*?<table style="width:100%;" cellpadding="0" cellspacing="1" border="0" >.*?<\\/table>\\s*?<\\/td>\\s*?<\\/tr>`,
+    `<td colspan="6" class="rest_nm">${place.name}<\\/td>.*?<table style="width:100%;" cellpadding="0" cellspacing="1" border="0" >.*?<\\/table>\\s*?\\t{2}<\\/td>\\s*?\\t<\\/tr>`,
     "gis",
   );
   const bodyMatch = pageBody.match(re);
@@ -62,7 +62,7 @@ function getMenus(
   const result: Menu[] = [];
   const reMenuKind = new RegExp(/\<td class="rest_mn".*?\>(.*?)<\/td\>/gis);
   const reMenu = new RegExp(
-    /\<td style="vertical-align:top;"\>(?<foods>.*?)\<\/td>.*?(?:\<td style="vertical-align:top;padding:0 0 0 3px;"\>.*?\<img.*?src='(?<image>.*?)'.*?)?\<\/table\>/gis,
+    /\<td style="vertical-align:top;"\>(?<foods>.*?)\t{8}\<\/td>.*?(?:\<td style="vertical-align:top;padding:0 0 0 3px;"\>.*?\<img.*?src='(?<image>.*?)'.*?)?\t\<\/table\>/gis,
   );
   const reKitchenMenu = new RegExp(/\>([^\<]*?\s*?-\s*?\d+\.\d+?)\</gis);
 
