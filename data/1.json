@@ -1,0 +1,15 @@
+{
+  "name": "학생식당",
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><strong><font color=\"#ff6633\"><font color=\"#00cc00\">국내산 <font color=\"#ff9933\">통 생듬심의</font> 지방을 제거 후&nbsp;두들겨 얇게 펴고 소금, 후추, </font><font color=\"#ff9933\">우유에 재워 숙성시킨</font><font color=\"#003333\"> <font color=\"#003366\">국내산 통 생등심</font><font color=\"#00cc33\"><font color=\"#ff3333\"></font></font><font color=\"#ff3333\"></font></font><font color=\"#660033\"><font face=\"휴먼둥근헤드라인\" size=\"3\"> <font color=\"#ff0000\">#수제생등심돈까스</font></font></font><br> 한우 <font color=\"#003333\">사골을&nbsp;푹 우린 육수에 대파, 마늘을 듬푹 넣어&nbsp;달달한 수제</font><font color=\"#ff3333\"> #데미소스</font> </font></strong></div><div><strong><font color=\"#ff6633\"></font>디포리, 건다시마, 대파,&nbsp;무 등을 끓여 만든&nbsp;<font size=\"3\"> <font color=\"#ff0000\" face=\"휴먼둥근헤드라인\">#</font><font color=\"#339999\" face=\"휴먼둥근헤드라인\">꼬치</font><font color=\"#33ccff\" face=\"휴먼둥근헤드라인\">어묵</font><font color=\"#ff0000\" face=\"휴먼둥근헤드라인\">우동</font></font><br></strong></div><div><strong><br></strong></div><div><strong>수제생등심<font size=\"2\">왕</font>돈까스 * 데미소스</strong></div><div><span style=\"color: rgb(66, 66, 66); text-transform: none; text-indent: 0px; letter-spacing:px; font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Handmade sirloin pork cutlet * Demisos</span></div><div><strong style=\"\">마카로니땅콩스위트콘s</strong><br></div><div><strong><strong>양배추S * 갈아만든 흑임자D</strong></strong></div><div><font color=\"#003333\"><strong>꼬치어묵우동</strong></font></div><div><strong>단무지</strong></div><div><strong><br></strong></div><div><strong>* 알러지유발 식품 : 우동(밀) / 돈까스(돈육, 우유, 난류, 밀) / 돈까스 소스(토마토,&nbsp;밀&nbsp;) / 양배추S(우유, 대두, 난류)</strong></div><div><strong><br></strong></div><div><strong><font color=\"#003366\">* 당일 100개 한정 판매(11:30~13:30)</font></strong></div><div><br></div><div><div><br></div></div>",
+      "price": 5000
+    },
+    {
+      "kind": "점심 2코너",
+      "foods": "<div></div>",
+      "image": "https://soongguri.com/menu/menu_file/20210325_1_3.jpg"
+    }
+  ]
+}

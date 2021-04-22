@@ -1,0 +1,17 @@
+{
+  "name": "숭실도담",
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<span style=\"\"><b style=\"\"><font color=\"#000033\">갖은양념으로 달달 볶아낸 불고기에 햇 양파를 채썰어 올린</font><font color=\"#ff0000\"> #양파채우불고기</font></b></span><br><div><b><span style=\"\"><font color=\"#003300\">향긋한 봄 요리</font><font color=\"#ff3300\"> #</font></span></b><font color=\"#ff3300\"><span style=\"\"><b>주꾸미돌미나리초고추장무침</b></span></font><br></div><div><b><br></b></div><div><span style=\"\"><b>양파채 우불고기</b></span><span style=\"\"><b></b></span></div><div><div><span style=\"color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif;  background-color: rgb(255, 255, 255);\">Onion shredded beef&nbsp;</span><br></div><div>주꾸미돌미나리초장무침</div><div><div style=\"\">두<span style=\"\">부조림</span></div><div>잡곡밥<br></div></div><div>얼큰어묵국<br></div><div>포기김치</div><div><br></div><div><div style=\"\">*알러지유발 식품 : 두부조림(대두), 어묵국(밀)</div><div style=\"\"><br></div></div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210422_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<span style=\"\"><b style=\"\">밥위에 육즙 가득 바삭한 치킨을 올리고 마요/데리까지 얹은 요리&nbsp;<font color=\"#ff0000\"> #치킨마요덮밥</font></b></span><br><div><span style=\"\"><font color=\"#006600\">망고와 함께 신선한 채소</font><b style=\"color: rgb(255, 51, 0);\"> #</b></span><span style=\"color: rgb(255, 51, 0); font-weight: bold; \">망고샐러드*오리엔탈D</span><br></div><div><b><br></b></div><div><span style=\"\"><b>치킨마요덮밥</b></span><b><span style=\"\">*</span><span style=\"\">망고샐러드</span><span style=\"\"></span></b></div><div><div><span style=\"color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif;  background-color: rgb(255, 255, 255);\">Chicken Mayo Rice with Mango Salad</span><br></div><div><span style=\"\">포기김치</span><br></div><div><div><br></div></div><div><br></div><div><div style=\"\">* 알러지유발 식품 : 치킨마요덮밥(난류,밀)</div><div style=\"\"><br></div></div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210422_2_6.jpg"
+    }
+  ]
+}
