@@ -3,7 +3,7 @@
   "menus": [
     {
       "kind": "점심 1코너",
-      "foods": "<b>명태회무침(Seasoned pollack sashimi)</b><div></div>\r\n\r\n\r\n\r\n<div><b>목살볶음(Grilled pork neck)</b></div><div>두부구이(Grilled tofu)</div><div>얼큰어묵국(Spicy Fish Cake Soup)</div><div>잡곡밥(Mixed Grain Rice)</div><div>얼음식혜(Ice Sikhye)</div><div>배추김치(cabbage kimchi)</div><div><br></div><div><br></div><div><strong style=\"\">* 알러지유발 식품&nbsp;</strong><span style=\"\">: 목살볶음(돈육), 두부구이(대두)</span><br></div><div><span style=\"\"><br></span></div><div><div style=\"\">제공되는&nbsp;<strong><font color=\"#ff0000\">김치류는</font></strong><strong style=\"\"><font color=\"#ff0000\">(배추, 고춧가루 외 기본양념)를 국내산 100%로&nbsp;</font></strong><strong style=\"\"><font color=\"#ff0000\">식품안전관리인증기준(HACCP)적용업체</font></strong><span style=\"\">에서&nbsp;</span><span style=\"\">공급받아 제공하고 있습니다.</span></div></div>",
+      "foods": "<b>명태회무침(Seasoned pollack sashimi)</b><div></div>\r\n\r\n\r\n\r\n<div><b>목살볶음(Grilled pork neck)</b></div><div><b>두부구이</b>(Grilled tofu)</div><div>얼큰어묵국(Spicy Fish Cake Soup)</div><div>잡곡밥(Mixed Grain Rice)</div><div>얼음식혜(Ice Sikhye)</div><div>배추김치(cabbage kimchi)</div><div><br></div><div><br></div><div><strong style=\"\">* 알러지유발 식품&nbsp;</strong><span style=\"\">: 목살볶음(돈육), 두부구이(대두)</span><br></div><div><span style=\"\"><br></span></div><div><div style=\"\">제공되는&nbsp;<strong><font color=\"#ff0000\">김치류는</font></strong><strong style=\"\"><font color=\"#ff0000\">(배추, 고춧가루 외 기본양념) 국내산 100%로&nbsp;</font></strong><strong style=\"\"><font color=\"#ff0000\">식품안전관리인증기준(HACCP)적용업체</font></strong><span style=\"\">에서&nbsp;</span><span style=\"\">공급받아 제공하고 있습니다.</span></div></div>",
       "price": 6000,
       "image": "https://soongguri.com/menu/menu_file/20210424_2_2.jpg"
     }
