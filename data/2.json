@@ -1,4 +1,17 @@
 {
   "name": "숭실도담",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div style=\"\"><strong style=\"\"><font color=\"#ff0000\"><strong><font color=\"#ff0000\">#</font></strong></font></strong><font color=\"#ff0000\"><span style=\"\"><b>연어회덮밥</b></span></font></div><div style=\"\"><b style=\"\"><font color=\"#330000\"><b><font color=\"#ff3300\">#</font></b></font></b><font color=\"#ff0000\"><span style=\"\"><b>간장마늘치킨</b></span></font></div><div style=\"\"><font color=\"#ff0000\"><span style=\"\"><b><br></b></span></font></div><div style=\"\"><span style=\"\"><b>연어회덮밥</b></span><b style=\"\">*</b><span style=\"\"><b>간장마늘치킨</b></span></div><div style=\"\"><div style=\"\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif; \">Salmon sashimi rice *Soy sauce garlic chicken</span><br></div><div style=\"\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif; \"><br></span></div><div style=\"\"><span style=\"\">팽이버섯국</span><br></div><div style=\"\"><div style=\"\"><span style=\"\">나박김치</span><br></div></div></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210426_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<div style=\"\"><strong style=\"\"><font color=\"#ff0000\">#</font></strong><font color=\"#ff0000\"><span style=\"\"><b>묵은지돼지갈비찜</b></span></font></div><div style=\"\"><b style=\"\"><font color=\"#330000\"><b><font color=\"#ff3300\">#</font></b></font></b><font color=\"#ff0000\"><span style=\"\"><b>갈치무조림</b></span></font></div><div style=\"\"><font color=\"#ff0000\"><span style=\"\"><b><br></b></span></font></div><div style=\"\"><span style=\"\"><b>묵은지돼지갈비찜</b></span><b style=\"\">*</b><span style=\"\"><b>갈치무조림</b></span><b style=\"\"></b></div><div style=\"\"><div style=\"\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif; \">Steamed pork ribs*</span><span style=\"background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif; \">Braised hairtail</span><br></div><div style=\"\"><span style=\"font-family: Verdana, Geneva, sans-serif;  background-color: rgb(255, 255, 255); color: rgb(66, 66, 66);\"><br></span></div><div style=\"\"><span style=\"\">브로콜리들깨소스무침</span><br></div><div style=\"\"><span style=\"\">잡곡밥</span><br></div><div style=\"\"><span style=\"\">맑은콩나물국</span><br></div></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210426_2_6.jpg"
+    }
+  ]
 }
