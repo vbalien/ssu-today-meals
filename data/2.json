@@ -1,15 +1,4 @@
 {
   "name": "숭실도담",
-  "menus": [
-    {
-      "kind": "점심 1코너",
-      "foods": "<div><font color=\"#ff0000\"><strong>5월 1일 토요일은 </strong></font></div><div><font color=\"#ff0000\"><strong>'근로자의 날'로 </strong></font></div><div><font color=\"#ff0000\"><strong>식당 운영을 하지 않는 점 </strong></font></div><div><font color=\"#ff0000\"><strong>양해 부탁드립니다. </strong></font></div><div><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  letter-spacing:px; background-color: rgb(255, 255, 255);\"><font color=\"#00cccc\"><b><br></b></font></span></div><div><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  letter-spacing:px; background-color: rgb(255, 255, 255);\"><font color=\"#00cccc\"><b>노동의 가치를 소중하게 생각합니다.</b></font></span></div><div><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  letter-spacing:px; background-color: rgb(255, 255, 255);\"><font color=\"#00cccc\"><b>I value the value of labor.</b></font></span><font color=\"#ff0000\"><strong><br></strong></font></div>",
-      "price": 100,
-      "image": "https://soongguri.com/menu/menu_file/20210501_2_2.JPG"
-    },
-    {
-      "kind": "석식 1코너",
-      "foods": "<div></div>"
-    }
-  ]
+  "menus": []
 }
