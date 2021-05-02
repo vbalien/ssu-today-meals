@@ -1,4 +1,17 @@
 {
   "name": "숭실도담",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><strong><font color=\"#ff0000\"><strong><font color=\"#ff0000\">#</font></strong></font></strong><font color=\"#ff0000\"><b>돈수육 * 미니물냉면</b></font></div><div><b style=\"\"><font color=\"#330000\"><b style=\"\"><font color=\"#ff3300\">#미나리무침</font></b></font></b></div><div><b style=\"\"><br></b></div><div><span style=\"\"><b>돈수육&amp;미니물냉면</b></span><b style=\"\">*미나리무침</b><span style=\"\"><b></b></span></div><div><div><span style=\"\">Donsuyuk &amp; Mini Water naengmyeon * <span><font color=\"#424242\" face=\"Verdana\" size=\"2\">Seasoned water parsley</font></span></span></div><div><span style=\"\"><br></span></div><div><span style=\"\">열무김치</span><br></div><div><div><span style=\"\">두부부침</span><br></div></div></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210503_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<div><strong><font color=\"#ff0000\"><strong><font color=\"#ff0000\">#</font></strong></font></strong><font color=\"#ff0000\"><b>쇠고기고추장찌개</b></font></div><div><b style=\"\"><font color=\"#330000\"><b style=\"\"><font color=\"#ff3300\">#</font></b></font></b><font color=\"#ff0000\"><span style=\"\"><b>돼지고기장조림</b></span></font><b style=\"\"><font color=\"#330000\"><br></font></b></div><div><b style=\"\"><br></b></div><div><span style=\"\"><b>쇠고기고추장찌개</b></span><b style=\"\">*</b><span style=\"\"><b>돼지고기장조림</b></span><b style=\"\"></b></div><div><div><span style=\"color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif;  background-color: rgb(255, 255, 255);\">Beef and chili paste stew*pork millet</span><br></div><div><span style=\"\"><br></span></div><div><span style=\"\">고등어묵은지조림</span><br></div></div><div><span style=\"\">마늘쫑건새우볶음</span><br></div><div><span style=\"\">무밥*부추양념장</span><br></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210503_2_6.jpg"
+    }
+  ]
 }
