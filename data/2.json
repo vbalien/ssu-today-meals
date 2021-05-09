@@ -1,17 +1,4 @@
 {
   "name": "숭실도담",
-  "menus": [
-    {
-      "kind": "점심 1코너",
-      "foods": "<div><strong><font color=\"#ff0000\"><strong><font color=\"#ff0000\">#</font></strong></font></strong><font color=\"#ff0000\"><b>LA갈비찜</b></font></div><div><b style=\"\"><font color=\"#330000\"><b style=\"\"><font color=\"#ff3300\">#</font></b></font></b><font color=\"#ff0000\"><span style=\"\"><b>새우젓계란찜</b></span></font><b style=\"\"><font color=\"#330000\"><br></font></b></div><div><b style=\"\"><br></b></div><div><span style=\"\"><b>LA갈비찜</b></span><b style=\"\">*</b><span style=\"\"><b>새우젓계란찜</b></span><b style=\"\"></b></div><div><div><span style=\"background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif; \">La Galbi Steamed Shrimp Salted Egg Steamed</span></div><div><span style=\"\"><br></span></div><div><span style=\"\">방풍나물</span><br></div><div><div style=\"\"><span style=\"\">우거지국</span><br></div></div></div><div style=\"\"><span style=\"\">총각김치</span><br></div><div style=\"\"><span style=\"\">잡곡밥</span><br></div><div></div>",
-      "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210504_2_2.jpg"
-    },
-    {
-      "kind": "석식 1코너",
-      "foods": "<div><strong><font color=\"#ff0000\"><strong><font color=\"#ff0000\">#</font></strong></font></strong><font color=\"#ff0000\"><b>숯불오징어돈육덮밥</b></font></div><div><b style=\"\"><font color=\"#330000\"><b style=\"\"><font color=\"#ff3300\">#</font></b></font></b><font color=\"#ff0000\"><span style=\"\"><b>해물볶음우동</b></span></font><b style=\"\"><font color=\"#330000\"><br></font></b></div><div><b style=\"\"><br></b></div><div><span style=\"\"><b>숯불오징어돈육덮밥</b></span><b style=\"\">*</b><span style=\"\"><b>해물볶음우동</b></span><b style=\"\"></b></div><div><div><span style=\"background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: Verdana, Geneva, sans-serif; \">Steamed pork rice bowl *Seafood Stir-Fried Udon</span></div><div><span style=\"\"><br></span></div><div><span style=\"\">도토리묵냉국</span><br></div><div><div style=\"\"><span style=\"\">깻잎단호박채전</span><br></div></div></div><div style=\"\"><span style=\"\">포기김치</span><br></div><div></div>",
-      "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210504_2_6.jpg"
-    }
-  ]
+  "menus": []
 }
