@@ -1,4 +1,17 @@
 {
   "name": "숭실도담",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><b style=\"\"><font color=\"#ff0000\">#</font></b><font color=\"#ff0000\"><span style=\"\"><b>제육쌈밥</b></span></font><br><font color=\"#ff0000\"><span style=\"\"><b>#갈치카레구이</b></span></font></div><div style=\"\"><br></div><div><span style=\"\"><b>제육쌈밥*갈치카레구이</b></span><b style=\"\"></b></div><div><div style=\"\"><span style=\"color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  background-color: rgb(255, 255, 255);\">Spicy Pork Ssambap*</span><span style=\"color: rgb(32, 32, 32); font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  background-color: rgb(255, 255, 255);\">Grilled Cutlassfish with Curry</span></div><div style=\"\"><span style=\"color: rgb(32, 32, 32); font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  background-color: rgb(255, 255, 255);\"><br></span></div><div style=\"\">제육볶음</div><div style=\"\"><span style=\"\"><b><font color=\"#00ff33\">모듬채소쌈</font></b></span></div><div><span style=\"\">차조보리밥</span><br></div><div><span style=\"\">아욱된장국</span></div><div><span style=\"\">여름 열무김치</span><br></div></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210517_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<div><b style=\"\"><font color=\"#ff0000\">#</font></b><font color=\"#ff0000\"><span style=\"\"><b>삼선볶음밥&amp;계란후라이</b></span></font><br><font color=\"#ff0000\"><span style=\"\"><b>#깐풍기</b></span></font></div><div style=\"\"><br></div><div><span style=\"\"><b>삼선볶음밥&amp;계란후라이*깐풍기</b></span><b style=\"\"></b></div><div><div style=\"\"><span style='color: rgb(32, 32, 32); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Seafood Fried Rice&amp;</span><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Fried eggs *&nbsp;</span><span style='color: rgb(32, 32, 32); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Chinese fried chili chicken</span></div><div style=\"\"><span style='color: rgb(32, 32, 32); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'><br></span></div><div><span style=\"\">미역오이냉국</span><br></div><div><span style=\"\">중화야채볶음</span><br></div><div><span style=\"\">총각김치</span><br></div></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210517_2_6.jpg"
+    }
+  ]
 }

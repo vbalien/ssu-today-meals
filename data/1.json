@@ -1,4 +1,11 @@
 {
   "name": "학생식당",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<br><div></div>\r\n\r\n\r\n\r\n<div><strong style=\"\">수제생<font color=\"#ff3300\">등</font><font color=\"#ff0000\">심<font size=\"4\">왕</font></font>돈까스 * 데미소스</strong><br></div><div><div style=\"\"><font face=\"Thread-000011b4-Id-0000033e\"><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  color: rgb(66, 66, 66); letter-spacing:px; background-color: rgb(255, 255, 255);\">Handmade Sirloin Pork Cutlet * Demisos</span></font></div></div><div style=\"\"><font face=\"Thread-000011b4-Id-0000033e\"><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  color: rgb(66, 66, 66); letter-spacing:px; background-color: rgb(255, 255, 255);\"><br></span></font></div><div style=\"\"><div style=\"\"><span style=\"\"><b>-&nbsp;알러지유발 식품</b>&nbsp;</span><span style=\"\">: 생등심돈까스(돈육, 우유, 밀), 데미소스(돈육,토마토), 흑임자드레싱(계란)</span><span style=\"\"><b><br></b></span></div><div style=\"\"><br></div><div style=\"\"></div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210510_1_2.jpg"
+    }
+  ]
 }
