@@ -1,11 +1,4 @@
 {
   "name": "숭실도담",
-  "menus": [
-    {
-      "kind": "점심 1코너",
-      "foods": "<div style=\"\"><b style=\"\"><font color=\"#ff0000\">#</font></b><font color=\"#ff0000\" style=\"\"><span style=\"\"><b>간장제육불고기</b></span></font><br></div><div style=\"\"><font color=\"#ff0000\" style=\"\"><span style=\"\"><b>#미니냉모밀</b></span></font></div><div style=\"\"><br></div><div style=\"\"><font color=\"#330000\"><b style=\"\">간장제육불고기*</b><b style=\"\">미니냉모밀</b><b style=\"\"></b></font></div><div style=\"\"><div style=\"\"><span style=\"color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  background-color: rgb(255, 255, 255);\">Soy sauce pork bulgogi × mini cold buckwheat noodles</span><br></div><div style=\"\"><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  color: rgb(32, 32, 32); background-color: rgb(255, 255, 255);\"><br></span></div><div style=\"\"><span style=\"\">망고샐러드</span></div><div style=\"\"><span style=\"\">더덕무침</span></div><div style=\"\"><span style=\"\">동치미</span></div></div><div></div>",
-      "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210522_2_2.jpg"
-    }
-  ]
+  "menus": []
 }
