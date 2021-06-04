@@ -1,20 +1,4 @@
 {
   "name": "학생식당",
-  "menus": [
-    {
-      "kind": "점심 1코너",
-      "foods": "<img src='/images/ico_newmenu.gif'><div><b>NEW~ !</b></div><div><b>시원~한 국물이 생각날때~!&nbsp;</b></div><div><b>첨가물 없이 수제로 만든 건강한 맛~!</b></div><font color=\"#00cccc\"><b>국내산&nbsp;</b><span style=\"\"><b>100%</b>&nbsp;</span></font>재료로 배합하여 정성스럽게 푹 끓여&nbsp; 감칠맛 UP!&nbsp;&nbsp;<div><font color=\"#ff0033\"><b>#수제냉모밀 #별미 #맛집 #안심서비스 #착한가격</b></font></div><div><font color=\"#ff0033\"><b><br></b></font></div><div><b>수제생등심돈까스&amp;냉모밀 </b></div><div><span style=\"color: rgb(66, 66, 66); font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  letter-spacing:px; background-color: rgb(255, 255, 255);\">Handmade Saengshim pork cutlet &amp; Cold Bucket</span><br></div><div><span style=\"color: rgb(66, 66, 66); font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  letter-spacing:px; background-color: rgb(255, 255, 255);\"><br></span></div><div>생등심을 우유에 재워 만든<b> 수제등심돈까스&nbsp;</b></div><div>한우 사골 육수로 부드러운 맛~!<b> 데미소스<br></b>양배추채를 곱게 썰어 얼음 물에 담가 더 아삭한 <b>양배추샐러드</b>&amp;</div><div><span style=\"\">검정깨를 곱게 갈아<b> 흑임자드레싱</b></span><br></div><div><span style=\"\"><b><br></b></span></div><div><span style=\"\"><b>- </b>알러지유발 식품&nbsp;</span><span style=\"\">: 생등심돈까스(돈육, 우유, 밀), 데미소스(돈육,토마토), 흑임자D(계란)</span><span style=\"\"><b><br></b></span></div><div><br></div><div><div><br><div></div>\r\n\r\n<div><br></div></div></div>",
-      "price": 5000
-    },
-    {
-      "kind": "점심 2코너",
-      "foods": "<div></div>",
-      "image": "https://soongguri.com/menu/menu_file/20210504_1_3.jpg"
-    },
-    {
-      "kind": "점심 3코너",
-      "foods": "<div></div>",
-      "image": "https://soongguri.com/menu/menu_file/20210504_1_4.jpg"
-    }
-  ]
+  "menus": []
 }
