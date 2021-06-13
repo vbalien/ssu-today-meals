@@ -1,4 +1,17 @@
 {
   "name": "숭실도담",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><strong><font color=\"#0066ff\">#무항생제통등심돈까스</font></strong></div><div><font color=\"#0066ff\"><strong>#막국수</strong></font></div><div><br></div><div><strong>무항생제통등심돈까스*막국수</strong></div><div><br></div><div>Non Antibiotic Pork Cutlet*makguksu<br></div><div>\r\n\r\n<br></div><div>견과류샐러드</div><div>단무지무침</div><div>수박화채</div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210614_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<div><font color=\"#3366ff\"><strong>#데리소스매콤닭봉조림</strong></font></div><div><font color=\"#3366ff\"><strong>#돈나물무침</strong></font></div><div><br></div><div><strong>데리소스매콤닭봉조림*돈나물무침</strong></div><div><br></div><div>Derysus Spicy braised chicken bong*Seasoned Donnamul</div><div><br></div><div>무조림</div><div>맑은콩나물국</div><div>잡곡밥</div><div>포기김치</div><p style=\"text-align: center; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; unicode-bidi: embed; direction: ltr; -ms-word-break: keep-all; language: ko; mso-line-break-override: none; punctuation-wrap: hanging;\"><span style='color: rgb(50, 38, 0); font-family: \"에스코어 드림 4 Regular\";  language: en-US; mso-ascii-font-family: \"에스코어 드림 4 Regular\"; mso-fareast-font-family: \"에스코어 드림 4 Regular\"; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-bidi-theme-font: minor-bidi; mso-style-textfill-fill-color: #322600; mso-style-textfill-fill-alpha: 100.0%;'><br></span></p>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210614_2_6.jpg"
+    }
+  ]
 }

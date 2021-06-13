@@ -1,4 +1,9 @@
 {
   "name": "학생식당",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><div><strong>그동안 학식을 이용해 주셔서 감사합니다.<br>2학기때 새로운 모습으로 만나뵙겠습니다.</strong></div><div><strong>감사합니다^-^</strong></div></div>"
+    }
+  ]
 }
