@@ -3,13 +3,13 @@
   "menus": [
     {
       "kind": "점심 1코너",
-      "foods": "<div><strong><font color=\"#3333ff\">#전주비빔밥+고추장</font></strong></div><div><strong><font color=\"#3333ff\">#간장제육불고기</font></strong></div><div><br></div><div><strong>전주비빔밥+고추장*간장제육불고기</strong></div><div><br></div><div>Jeonju Bibimbap + Red pepper paste * Soy sauce meat Bulgogi</div><div><br></div><div>계란후라이</div><div>우묵냉국</div><div>백김치<br></div>",
+      "foods": "<div><strong><font color=\"#000099\">정성껏 따로 볶아 각각의 재료의 맛이 그대로 살아 있어 건강한 밥상</font><font color=\"#ff0066\">&nbsp;#전주비빔밥+고추장소스</font></strong></div><div><strong style=\"\"><font color=\"#ff3333\">#간장제육불고기</font></strong></div><div><br></div><div><strong>전주비빔밥+고추장*간장제육불고기</strong></div><div><br></div><div>Jeonju Bibimbap + Red pepper paste * Soy sauce meat Bulgogi</div><div><br></div><div><b>계란후라이</b></div><div><b><font color=\"#0066ff\">시원하고 개운한 맛</font><font color=\"#ff0066\">&nbsp; 우묵냉국</font></b></div><div>백김치<br></div><div><b>계절과일<font color=\"#ff0033\">(참외)</font></b></div><div><b><font color=\"#ff0033\"><br></font></b></div><div><div style=\"\"><font color=\"#000000\"><strong>*알러지유발 식품</strong>&nbsp;: 계란후라이(계란), 간장제육불고기(돈육)</font></div><div style=\"\"><strong style=\"\">*원산지&nbsp;</strong><span style=\"\">: 계란, 백김치(국내산</span><span style=\"\">/HACCP인증)</span><span style=\"\">)</span></div><div style=\"\"><br></div></div>",
       "price": 5000,
       "image": "https://soongguri.com/menu/menu_file/20210615_2_2.jpg"
     },
     {
       "kind": "석식 1코너",
-      "foods": "<div><strong><font color=\"#0033ff\">#마약닭볶음탕</font></strong></div><div><strong><font color=\"#0033ff\">#소고기호박고추장찌개</font></strong></div><div><strong><br></strong></div><div><strong>마약닭볶음탕*소고기호박고추장찌개</strong></div><div><br></div><div>Stir-Fried Chicken * Beef Pumpkin Red Pepper Paste Stew<br></div><div><br></div><div>가지튀김</div><div>도토리묵쑥갓무침</div><div>포기김치</div><div>귀리밥</div>",
+      "foods": "<div><strong><font color=\"#0033ff\">얼큰한 </font><font color=\"#ff0033\">#마약닭볶음탕</font></strong></div><div><strong><font color=\"#ff0033\">소</font></strong><strong style=\"\"><font color=\"#0033ff\">고기, 애호박, 햇감자,두부,버섯,고추 등으로 칼칼!</font><font color=\"#ff0000\">&nbsp;#소고기호박고추장찌개</font></strong></div><div><strong><br></strong></div><div><strong>마약닭볶음탕*소고기호박고추장찌개</strong></div><div><br></div><div>Stir-Fried Chicken * Beef Pumpkin Red Pepper Paste Stew<br></div><div><br></div><div>가지튀김</div><div>도토리묵쑥갓무침</div><div>포기김치</div><div><b>귀리밥</b></div><div><br></div><div><div style=\"\"><font color=\"#000000\"><strong>*알러지유발 식품</strong>&nbsp;: 가지튀김(계란,밀)</font></div><div style=\"\"><strong style=\"\">*원산지&nbsp;</strong><span style=\"\">: 닭(국내산), 소고기:호주산,&nbsp;</span></div><div style=\"\"><span style=\"\">포기김치(국내산/</span><span style=\"\">HACCP인증)</span><span style=\"\">)</span></div></div>",
       "price": 5000,
       "image": "https://soongguri.com/menu/menu_file/20210615_2_6.jpg"
     }
