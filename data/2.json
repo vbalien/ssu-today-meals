@@ -3,15 +3,15 @@
   "menus": [
     {
       "kind": "점심 1코너",
-      "foods": "<div><strong><font color=\"#000033\">돼지목살 한점에 싱그런 상추쌈 든든한 단백질 섭취~!</font><font color=\"#ff0066\"> #돼지목살간장주물럭</font></strong></div><div><strong><font color=\"#000066\">알록달록</font><font color=\"#ff0000\">&nbsp;쫄깃한 #파프리카잡채</font></strong></div><div><strong><br></strong></div><div><strong>돼지목살간장주물럭 * 파프리카잡채</strong></div><div><br></div><div>pork neck soy sauce casting lock * Paprika japchae</div><div><br></div><div><b><font color=\"#003333\">도토리묵과오이냉국의 만남</font><font color=\"#00cc66\">&nbsp;시원한 </font><font color=\"#ff0000\">김치</font><font color=\"#00cc66\">도토리묵국</font></b></div><div>상추쌈 * 쌈장</div><div>강낭콩밥</div><div><font color=\"#ff0033\"><b>수제배추겉절이</b></font><br></div><div><font color=\"#ff0033\"><b><br></b></font></div><div><div style=\"\"><font color=\"#000000\"><strong>*알러지유발 식품</strong>&nbsp;: 목살주물럭(돈육), 파프리카잡채(돈육), 강낭콩밥(대두)</font></div><div style=\"\"><font color=\"#000000\">*원산지 : 쌀-국내산, 돈육-캐나다산</font></div><div style=\"\"><br></div></div>",
+      "foods": "<div><strong><font color=\"#996699\">#폭찹스테이크</font></strong></div><div><strong><font color=\"#996699\">#리코타치즈샐러드</font></strong></div><div><strong><br></strong></div><div><strong>폭찹스테이크*리코타치즈샐러드</strong></div><div><br></div><div>Pork Chop Steak * Ricotta Cheese Salad</div><div><br></div><div>유부우동국물</div><div>노란차조밥</div><div>포기김치</div><div>자몽허니블랙티</div>",
       "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210616_2_2.jpg"
+      "image": "https://soongguri.com/menu/menu_file/20210617_2_2.jpg"
     },
     {
       "kind": "석식 1코너",
-      "foods": "<div><strong>아삭아삭 맛있는<font color=\"#ff0066\"> #우삼겹숙주볶음</font></strong></div><div><strong><font color=\"#000033\">들기름으로 구운</font><font color=\"#ff0000\"> #들기름김</font></strong></div><div><strong><br></strong></div><div><strong>우삼겹숙주볶음*들기름김</strong></div><div><br></div><div>Stir-fried Beef Pork Bean Paste * Perilla oil laver</div><div><br></div><div>현미쑥쌀밥</div><div><b>치커리사과무침</b></div><div>팽이버섯된장국</div><div>포기김치<br></div><div><br></div><div><div style=\"\"><font color=\"#000000\"><strong>*알러지유발 식품</strong>&nbsp;: 팽이버섯국(대두)<br>* <b>원산지</b> : 우삼겹-미국산,&nbsp;</font><span style=\"\">포기김치(배추,고춧가루&nbsp;</span><span style=\"\">국내산/HACCP인증)</span></div><div style=\"\"><br style=\"\"></div></div>",
+      "foods": "<div><strong><font color=\"#9900cc\">#대패삼겹살덮밥</font></strong></div><div><strong><font color=\"#9900cc\">#멸치비엔나볶음</font></strong></div><div><strong><br></strong></div><div><strong>대패삼겹살덮밥*멸치비엔나볶음</strong></div><div><br></div><div>Grilled Thin Pork Belly rice * Anchovy Vienna Stir-fry</div><div><br></div><div>아삭이고추된장무침</div><div>황태무국</div><div>나박김치<br></div>",
       "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210616_2_6.jpg"
+      "image": "https://soongguri.com/menu/menu_file/20210617_2_6.jpg"
     }
   ]
 }
