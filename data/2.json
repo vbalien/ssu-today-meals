@@ -3,13 +3,13 @@
   "menus": [
     {
       "kind": "점심 1코너",
-      "foods": "<div><strong><font color=\"#996699\">#폭찹스테이크</font></strong></div><div><strong><font color=\"#996699\">#리코타치즈샐러드</font></strong></div><div><strong><br></strong></div><div><strong>폭찹스테이크*리코타치즈샐러드</strong></div><div><br></div><div>Pork Chop Steak * Ricotta Cheese Salad</div><div><br></div><div>유부우동국물</div><div>노란차조밥</div><div>포기김치</div><div>자몽허니블랙티</div>",
+      "foods": "<div><strong><font color=\"#000066\">국내산 등심, 버섯, 파프리카</font><font color=\"#ff0033\"> #폭찹스테이크</font></strong></div><div><strong><font color=\"#000033\">리코타치즈, 브래드, 토마토 등에 무지방발사믹소스를 곁들인</font><font color=\"#ff0033\"> #리코타치즈샐러드</font></strong></div><div><strong><br></strong></div><div><strong>폭찹스테이크*리코타치즈샐러드</strong></div><div><br></div><div>Pork Chop Steak * Ricotta Cheese Salad</div><div><br></div><div>유부우동국물</div><div>노란차조밥</div><div>포기김치</div><div><b><font color=\"#0066ff\">달달한~수제 자몽허니블랙티</font></b></div><div><br></div><div><b>*알러지유발식품 </b>: 폭찹스테이크(돈육), 리코타치즈S(우유,토마토)&nbsp;</div><div><b>* 원산지</b> : 돼지등심-국내산,&nbsp;<span style=\"\">포기김치(배추,고춧가루&nbsp;</span><span style=\"\">국내산/HACCP인증)</span><br>&nbsp;</div>",
       "price": 5000,
       "image": "https://soongguri.com/menu/menu_file/20210617_2_2.jpg"
     },
     {
       "kind": "석식 1코너",
-      "foods": "<div><strong><font color=\"#9900cc\">#대패삼겹살덮밥</font></strong></div><div><strong><font color=\"#9900cc\">#멸치비엔나볶음</font></strong></div><div><strong><br></strong></div><div><strong>대패삼겹살덮밥*멸치비엔나볶음</strong></div><div><br></div><div>Grilled Thin Pork Belly rice * Anchovy Vienna Stir-fry</div><div><br></div><div>아삭이고추된장무침</div><div>황태무국</div><div>나박김치<br></div>",
+      "foods": "<div><strong>단짠단짠<font color=\"#ff3333\"> #대패삼겹살덮밥</font></strong></div><div><strong><font color=\"#ff3333\">#멸치비엔나볶음</font></strong></div><div><strong><br></strong></div><div><strong>대패삼겹살덮밥*멸치비엔나볶음</strong></div><div><br></div><div>Grilled Thin Pork Belly rice * Anchovy Vienna Stir-fry</div><div><br></div><div>상추무침</div><div><b>황태</b>무국</div><div>나박김치<br></div><div><br></div><div><div style=\"\"><b>*알러지유발식품&nbsp;</b>: 대패삼겹살(돈육), 멸치비엔나볶음(돈육)&nbsp;</div><div style=\"\"><b>* 원산지</b>&nbsp;: 대패삼겹살-독일산, 나박<span style=\"\">김치-국내산(</span><span style=\"\">HACCP인증)</span><br>&nbsp;</div></div>",
       "price": 5000,
       "image": "https://soongguri.com/menu/menu_file/20210617_2_6.jpg"
     }
