@@ -3,13 +3,13 @@
   "menus": [
     {
       "kind": "점심 1코너",
-      "foods": "<div><strong><font color=\"#ff0066\">#인절미치킨</font></strong></div><div><strong><font color=\"#ff0066\">#갈릭베이컨볶음</font></strong></div><div><strong><br></strong></div><div><strong>인절미치킨*갈릭베이컨볶음</strong></div><div><br></div><div>Injeolmi Chicken * Garlic Bacon Stir-Fried Rice</div><div><br></div><div><b><font color=\"#ff0000\">망고</font>샐러드</b></div><div>냉 미숫가루</div><div>깍두기<br></div>",
+      "foods": "<div><strong><font color=\"#000066\">밑간 한 순살에 계란 옷 입히고 바삭하게 튀긴<br>치킨에 고소한 콩가루를 솔솔 뿌려낸</font><font color=\"#0000cc\">&nbsp;</font><font color=\"#ff0066\"> #인절미치킨,</font><font color=\"#000066\"> 찰리소스를 곁이면 더 맛있어요~!&nbsp;</font></strong></div><div><strong><font color=\"#ff0066\">#갈릭베이컨볶음밥+계란후라이</font></strong></div><div><strong><br></strong></div><div><strong>인절미치킨*갈릭베이컨볶음밥</strong></div><div><br></div><div>Injeolmi Chicken * Garlic Bacon Stir-Fried Rice</div><div><br></div><div><b><font color=\"#ff0000\">망고</font>샐러드</b></div><div><font color=\"#0066cc\">냉<b> 우유미숫가루</b></font></div><div>깍두기<br></div><div><br></div><div><div style=\"\"><font color=\"#000000\"><strong>*알러지유발식품</strong>&nbsp;: 인절미튀김(계란), 미숫가루(우유, 대두), 갈릭베이컨볶음밥(베이컨-돈육)</font></div><div style=\"\">후라이(계란)</div><div style=\"\"><br></div><div style=\"\"><strong>*원산지&nbsp;</strong>: 닭다리살-국내산, 계란-국내산,</div><div style=\"\">깍두기-국내산(HACCP인증)</div></div>",
       "price": 5000,
       "image": "https://soongguri.com/menu/menu_file/20210618_2_2.jpg"
     },
     {
       "kind": "석식 1코너",
-      "foods": "<div><strong><font color=\"#ff3333\">#초계국수</font></strong></div><div><strong><font color=\"#ff3333\">#갈비만두</font></strong></div><div><strong><br></strong></div><div><strong>초계국수*갈비만두</strong></div><div><br></div><div>Chogye Noodles * Galbi Dumpling</div><div><br></div><div>유부초밥</div><div>수박<br></div>",
+      "foods": "<div><strong><font color=\"#ff3333\">#초계국수</font></strong></div><div><strong><font color=\"#ff3333\">#갈비만두</font></strong></div><div><strong><br></strong></div><div><strong>초계국수*갈비만두</strong></div><div><br></div><div>Chogye Noodles * Galbi Dumpling</div><div>부추양파무침</div><div><b><font color=\"#0066ff\">수제</font><font color=\"#ff6633\">유부초밥</font></b></div><div><b style=\"\"><font color=\"#cc0033\">수박</font></b><br></div><div><b style=\"\"><font color=\"#cc0033\"><br></font></b></div><div><div style=\"\"><font color=\"#000000\"><strong>*알러지유발식품</strong>&nbsp;: 초계국수(계란, 밀), 갈비만두(돈육, 밀), 유부초밥(대두)</font></div><div style=\"\"><br></div><div style=\"\"><strong>*원산지&nbsp;</strong>: 닭살-국내산, 계란-국내산</div></div>",
       "price": 5000,
       "image": "https://soongguri.com/menu/menu_file/20210618_2_6.jpg"
     }
