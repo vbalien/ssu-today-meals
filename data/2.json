@@ -1,4 +1,17 @@
 {
   "name": "숭실도담",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><strong style=\"\"><font color=\"#ff3366\">#</font></strong><font color=\"#ff3366\"><span style=\"\"><b>등갈비김치찜</b></span></font></div><div><strong style=\"\"><font color=\"#ff0000\">#</font></strong><font color=\"#ff0000\"><span style=\"\"><b>두부부침&amp;양념장</b></span></font></div><div style=\"\"><br></div><div><span style=\"\"><b>등갈비김치찜&nbsp;</b></span><b style=\"\">*&nbsp;</b><span style=\"\"><b>두부부침&amp;양념장</b></span><b style=\"\">&nbsp;</b></div><div style=\"\"><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Braised Back Rib Kimchi *&nbsp;</span><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Tofu Pancake</span><br></div><div style=\"\"><br></div><div style=\"\">파프리카어묵볶음</div><div style=\"\">양배추찜</div><div style=\"\">현미쑥쌀밥</div><div><span style=\"\">쇠고기미역국</span><br></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210621_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<div><strong style=\"\"><font color=\"#ff3366\">#</font></strong><font color=\"#ff3366\"><span style=\"\"><b>소고기콩나물밥*부추양념장</b></span></font></div><div><strong style=\"\"><font color=\"#ff0000\">#</font></strong><font color=\"#ff0000\"><span style=\"\"><b>계란후라이</b></span></font></div><div style=\"\"><br></div><div><span style=\"\"><b>소고기콩나물밥&amp;부추양념장&nbsp;</b></span><b style=\"\">*&nbsp;</b><span style=\"\"><b>계란후라이</b></span><b style=\"\">&nbsp;</b></div><div style=\"\"><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Beef Bean Sprout Rice * fried eggs</span><br></div><div style=\"\"><br></div><div><span style=\"\">고등어김치조림</span><br></div><div><span style=\"\">미역오이냉국</span></div><div><span style=\"\">총각김치</span><br></div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210621_2_6.jpg"
+    }
+  ]
 }

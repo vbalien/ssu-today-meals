@@ -1,4 +1,11 @@
 {
   "name": "FACULTY LOUNGE",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div style=\"\"><font color=\"#ff6633\"><strong style=\"\">#</strong><strong style=\"\">뚝배기돼지갈비찜</strong><br></font></div><div style=\"\"><font color=\"#ff6633\"><strong>#</strong><strong style=\"\">쟁반막국수</strong></font></div><div style=\"\"><br></div><div style=\"\"><strong>뚝배기돼지갈비찜&amp;쟁반막국수</strong></div><div style=\"\"><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Steamed pork ribs</span><span style=\"\">*</span><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Makguksu</span><br></div><div style=\"\"><br></div><div style=\"\">갈아만든감자전</div><div style=\"\">얼갈이된장무침</div><div style=\"\">곤드레나물밥*부추양념장</div><div style=\"\">포기김치</div><div style=\"\"><b>냉식혜</b></div><div style=\"\">보리차</div><div></div>",
+      "price": 6000,
+      "image": "https://soongguri.com/menu/menu_file/20210621_7_2.jpg"
+    }
+  ]
 }
