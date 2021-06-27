@@ -1,4 +1,17 @@
 {
   "name": "숭실도담",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><strong><font color=\"#ff0000\">#LA갈비찜</font></strong></div><div><strong><font color=\"#ff0000\">#한식잡채</font></strong></div><div><strong><br></strong></div><div><strong>LA갈비찜*한식잡채</strong></div><div>Braised Short Ribs * Korean Food Japchae</div><div><br></div><div><br></div><div>알감자버터구이&nbsp;<br>나박김치<br>강낭콩밥<br>쇠고기미역국<br></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210628_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<div><strong><font color=\"#cc00cc\">#꽁치한마리레몬구이<br>#멸치비엔나볶음</font></strong></div><div><strong><br></strong></div><div><strong>꽁치한마리레몬구이*멸치비엔나볶음</strong></div><div>Grilled mackerel pike*Stir-fried anchovy vienna</div><div><br></div><div>포기김치<br>콩비지국<br>잡곡밥<br>치커리사과무침</div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210628_2_6.jpg"
+    }
+  ]
 }

@@ -1,4 +1,155 @@
 {
   "name": "더 키친",
-  "menus": []
+  "menus": [
+    {
+      "kind": "파스타",
+      "foods": "THE KITCHEN Lasagna Pasta",
+      "price": 9000
+    },
+    {
+      "kind": "파스타",
+      "foods": "카르보 나라 Carbonara pasta",
+      "price": 6000
+    },
+    {
+      "kind": "파스타",
+      "foods": "트러플 크림 Truffie Cream Pasta",
+      "price": 8000
+    },
+    {
+      "kind": "파스타",
+      "foods": "투움바 파스타 Toumba pasta",
+      "price": 8000
+    },
+    {
+      "kind": "파스타",
+      "foods": "빠네 파스타 Pane pasta",
+      "price": 9000
+    },
+    {
+      "kind": "파스타",
+      "foods": "바질 리코타 치즈 Ricotta Cheese with Basil Pasta",
+      "price": 7000
+    },
+    {
+      "kind": "파스타",
+      "foods": "해산물 토마토 Seafood tomato pasta",
+      "price": 7000
+    },
+    {
+      "kind": "파스타",
+      "foods": "쉬림프 로제 Shrimp Rose Pasta",
+      "price": 8000
+    },
+    {
+      "kind": "파스타",
+      "foods": "목살 로제 Pork Rose Pasta",
+      "price": 8000
+    },
+    {
+      "kind": "파스타",
+      "foods": "트러플 알리오 올리오 Truffle Allio Ollio Pasta",
+      "price": 7000
+    },
+    {
+      "kind": "파스타",
+      "foods": "봉골레 파스타 Bongole pasta",
+      "price": 8000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "고르곤졸라 피자 Gorgonzola Pizza",
+      "price": 10000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "&nbsp;Pizza",
+      "price": 10000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "큐브 스테이크 피자 Cube Steak Pizza",
+      "price": 10000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "김치 볶음밥 Kimchi Fried Rice",
+      "price": 7000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "버섯 크림 리조또 Mushroom Cream Risotto",
+      "price": 7000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "쉬림프 로제 리조또 Shirimp rose risotto",
+      "price": 8000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "리코타 치즈 샐러드 Ricotta cheese salad",
+      "price": 6000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "그릴드 치킨 샐러드Grilled chicken salad",
+      "price": 6000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "마늘빵 4pGarilc bread",
+      "price": 1500
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "감자튀김French fried",
+      "price": 2000
+    },
+    {
+      "kind": "피자&식사류",
+      "foods": "트러플 감자튀김Truffle french fried",
+      "price": 2000
+    },
+    {
+      "kind": "디저트",
+      "foods": "딸기,쿠앤크,밀크티,민트,흑임자 마카롱",
+      "price": 1500
+    },
+    {
+      "kind": "디저트",
+      "foods": "인절미,티라미수,황치즈 마카롱",
+      "price": 1800
+    },
+    {
+      "kind": "디저트",
+      "foods": "아메리카노 Americano",
+      "price": 1500
+    },
+    {
+      "kind": "디저트",
+      "foods": "카페라떼 Caffe latte",
+      "price": 2000
+    },
+    {
+      "kind": "디저트",
+      "foods": "카페모카 Cafe mocha",
+      "price": 2000
+    },
+    {
+      "kind": "디저트",
+      "foods": "카푸치노 Cappuccino",
+      "price": 2000
+    },
+    {
+      "kind": "디저트",
+      "foods": "페퍼민트 Peppermint tea",
+      "price": 2000
+    },
+    {
+      "kind": "디저트",
+      "foods": "카모마일 Camomile tea",
+      "price": 2000
+    }
+  ]
 }
