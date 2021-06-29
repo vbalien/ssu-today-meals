@@ -3,15 +3,15 @@
   "menus": [
     {
       "kind": "점심 1코너",
-      "foods": "<div><strong><font color=\"#000033\">국내산 생등심을 우유에 재우고 바삭하게 튀겨낸&nbsp;&nbsp;</font><font color=\"#cc33ff\">#수제등심돈까스&amp;브라운소스</font><br><font color=\"#000033\">토마토, 계란, 고추냉이를 올린 시원한</font><font color=\"#cc33ff\"> #냉메밀국수</font></strong></div><div><strong><br></strong></div><div><strong>수제등심돈까스*냉메밀국수</strong></div><div>Handmade Sirloin Pork Cutlet * Cold Buckwheat Noodle</div><div><b>할라피뇨</b></div><div><b style=\"\"><font color=\"#ff0033\">양평 무 농</font><font color=\"#ff0066\">약</font></b><font color=\"#ff0066\" style=\"\"><b>&nbsp;햇 감자~! </b></font>메쉬드포테이토<br></div><div>깍두기<br></div><div><br></div><div><div style=\"\"><font color=\"#000000\"><strong>* 알러지유발식품</strong>&nbsp;- 수제등심돈까스(돈육, 계란, 생빵가루, 우유), 브라운소스(버터, 토마토케찹)</font></div><div style=\"\"><span style=\"\">메쉬드포테이토 (우유, 땅콩가루, 계란)</span></div><div style=\"\"><strong style=\"\">* 원산지&nbsp;</strong><span style=\"\">: 등심돈까스(돈육:국내산), 깍두기</span><span style=\"background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  letter-spacing:px;\">(무,고춧가루:국산/HACCP인증)</span><br></div><div style=\"\">&nbsp;</div><div style=\"\"><br style=\"\"></div></div>",
+      "foods": "<div><strong><font color=\"#99cc00\">#갈비탕<br>#감자맛탕</font></strong></div><div><strong><br></strong></div><div><strong>갈비탕*감자맛탕</strong></div><div>Short rib soup*Gamja-matang</div><div><br></div><div>총각김치<br>찰흑미밥<br></div>",
       "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210629_2_2.jpg"
+      "image": "https://soongguri.com/menu/menu_file/20210630_2_2.jpg"
     },
     {
       "kind": "석식 1코너",
-      "foods": "<div><strong>표고, 새송이, 열무김치, 계란, 상추 등&nbsp; <font color=\"#ff0033\">#버섯열무비빔밥</font><br><font color=\"#000033\">풋마늘쫑, 양파, 통마늘, 고추를 넣어 굴소스로&nbsp; 달달 볶은</font><font color=\"#ff0033\"> #삼겹살볶음</font></strong></div><div><strong><br></strong></div><div><strong>버섯열무비빔밥*삼겹살볶음</strong></div><div>Mushroom yeolmu bibimbap * Stir-fried pork belly</div><div><br></div><div>계란프라이<br>팽이버섯국<br>동치미<br></div><div><br></div><div><div style=\"\"><font color=\"#000000\"><strong>* 알러지유발식품-</strong>&nbsp;열무비빔밥(계란), 삼겹살볶음(돈삼겹살), 계란프라이(계란), 팽이버섯국(대두)</font></div><div style=\"\"><strong style=\"\">* 원산지&nbsp;</strong><span style=\"\">: 계란, 삼겹살 : 국내산,&nbsp;</span><span style=\"\">깍두기</span><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Malgun Gothic&quot;, &quot;맑은 고딕&quot;, helvetica, &quot;Apple SD Gothic Neo&quot;, helvetica, &quot;나눔바른고딕 옛한글&quot;, &quot;NanumBarunGothic YetHangul&quot;, sans-serif;  background-color: rgb(255, 255, 255); color: rgb(66, 66, 66); letter-spacing:px;\">(무,고춧가루:국산/HACCP인증)</span><br></div><div style=\"\">&nbsp;</div></div>",
+      "foods": "<div><strong><font color=\"#ff0033\">#갈아만든감자전<br>#훈제오리고기버섯볶음</font></strong></div><div><strong><br></strong></div><div><strong>갈아만든감자전*훈제오리고기버섯볶음</strong><br>Potato Pancake * Stir-fried smoked duck mushrooms</div><div><br></div><div>부추무침<br>콩나물우거지국<br>현미쑥쌀밥<br><br></div>",
       "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210629_2_6.jpg"
+      "image": "https://soongguri.com/menu/menu_file/20210630_2_6.jpg"
     }
   ]
 }
