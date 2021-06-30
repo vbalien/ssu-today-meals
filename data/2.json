@@ -3,15 +3,15 @@
   "menus": [
     {
       "kind": "점심 1코너",
-      "foods": "<div><strong><font color=\"#000000\">핏물을 제거한 소갈비를 푹~삶아 불순물을</font></strong></div><div><strong><font color=\"#000000\">제거한 후&nbsp;수제 간장양념에 조려 깊고 진한맛!</font></strong></div><div><font color=\"#99cc00\"><strong>#갈비탕<br></strong></font></div><div><strong><font color=\"#000000\">양평알감자를 기름에 튀겨 물엿에 버무린후</font></strong></div><div><font color=\"#000000\"><strong>검은깨 솔솔~ 달달하고 담백한 </strong></font></div><div><strong><font color=\"#99cc00\">#감자맛탕</font></strong></div><div><strong><br></strong></div><div><strong>갈비탕(당면사리)*감자맛탕</strong></div><div>Short rib soup*Gamja-matang</div><div><br></div><div>총각김치<br>찰흑미밥</div><div><br></div><div>*알러지유발식품 : 없음</div><div>*원산지:우갈비,양지(뉴질랜드산)<br></div>",
+      "foods": "<div><strong><font color=\"#ff00ff\">#보쌈정식</font></strong></div><div><strong><br></strong></div><div><strong>보쌈정식</strong></div><div>Bossam set meal</div><div><br></div><div>참치감자조림<br>수제배추겉절이<br>야채쌈<br>무말랭이깻잎무침<br>양파장아찌<br></div>",
       "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210630_2_2.jpg"
+      "image": "https://soongguri.com/menu/menu_file/20210701_2_2.jpg"
     },
     {
       "kind": "석식 1코너",
-      "foods": "<div><strong><font color=\"#000000\">속은 쫄기한 식감! 겉은 바삭! 비오는날씨에</font></strong></div><div><strong><font color=\"#000000\">딱 생각나는 메뉴~</font></strong></div><div><strong><font color=\"#ff0033\">#갈아만든감자전<br></font></strong></div><div><strong><font color=\"#000000\">훈제오리에 채소와 버섯을 골고루 볶아 먹는</font></strong></div><div><strong><font color=\"#000000\"><strong><font color=\"#ff0033\">#훈제오리고기버섯볶음</font></strong></font></strong></div><div><strong><br></strong></div><div><strong>갈아만든감자전*훈제오리고기버섯볶음</strong><br>Potato Pancake * Stir-fried smoked duck mushrooms</div><div><br></div><div>부추무침<br>콩나물우거지국<br>현미쑥쌀밥<br></div><div><br></div><div>*알러지유발식품:감자전(밀),콩나물우거지국(콩)</div><div>*원산지:훈제오리(중국산)<br></div>",
+      "foods": "<div><font color=\"#cc00cc\"><strong>#오꼬노미야끼<br>#냉 차슈라멘</strong></font></div><div><strong><br></strong></div><div><strong>오꼬노미야끼*냉 차슈라멘</strong></div><div>Okonomiyaki*Cold Chashuramen</div><div><br></div><div>단무지무침</div>",
       "price": 5000,
-      "image": "https://soongguri.com/menu/menu_file/20210630_2_6.jpg"
+      "image": "https://soongguri.com/menu/menu_file/20210701_2_6.jpg"
     }
   ]
 }
