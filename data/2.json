@@ -1,4 +1,17 @@
 {
   "name": "숭실도담",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div><font color=\"#ff3300\"><strong style=\"\">#</strong><span style=\"\"><b>씻은묵은지</b></span></font></div><div><font color=\"#ff3300\"><strong style=\"\">#</strong><span style=\"\"><b>돈목살구이</b></span></font><strong style=\"\"><br></strong></div><div><font color=\"#ff3300\"><span style=\"\"><b>#</b><b>비빔면</b></span></font></div><div style=\"\"><strong><br></strong></div><div><span style=\"\"><b>씻은묵은지</b></span><b style=\"\">*</b><span style=\"\"><b>돈목살구이*비빔면</b></span><b style=\"\"></b></div><div style=\"\"><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>washed-up old kimchi</span>&nbsp;*<span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Grilled pork neck</span><span style='color: rgb(66, 66, 66); letter-spacing:px; font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>&nbsp;*&nbsp;</span><span style='color: rgb(32, 32, 32); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Spicy Noodles</span><br></div><div style=\"\"><br></div><div style=\"\">양파절이</div><div style=\"\">양배추찜</div><div style=\"\">잡곡밥</div><div style=\"\">팽이버섯국</div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210705_2_2.jpg"
+    },
+    {
+      "kind": "석식 1코너",
+      "foods": "<div><font color=\"#ff3300\" style=\"\"><strong style=\"\">#</strong></font><font color=\"#ff3300\"><span style=\"\"><b>국물닭도리탕(당면)</b></span></font></div><div style=\"\"><strong><br></strong></div><div><span style=\"\"><b>국물닭도리탕(당면)</b></span><b style=\"\"></b></div><div style=\"\"><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Soup chicken soup (dangmyeon)</span><br></div><div style=\"\"><br></div><div style=\"\">계란장조림</div><div style=\"\">클로렐라밥</div><div style=\"\">콩나물냉국</div><div style=\"\">총각김치</div><div style=\"\">브로콜리*다시마/초장</div><div></div>",
+      "price": 5000,
+      "image": "https://soongguri.com/menu/menu_file/20210705_2_6.jpg"
+    }
+  ]
 }
