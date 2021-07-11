@@ -1,4 +1,11 @@
 {
   "name": "FACULTY LOUNGE",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div style=\"\"><font color=\"#ff3300\"><strong style=\"\">#</strong><b style=\"\">돼지목살양념구이</b></font></div><div style=\"\"><font color=\"#ff3300\"><strong style=\"\">#</strong><b style=\"\">뚝배기참치김치찌개</b></font></div><div style=\"\"><strong><br></strong></div><div style=\"\"><b><font color=\"#330000\">돼지목살양념구이 * 뚝배기참치김치찌개</font></b></div><div style=\"\"><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Grilled pork neck seasoning</span><span style='color: rgb(66, 66, 66); letter-spacing:px; font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>&nbsp;*&nbsp;</span><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>tuna kimchi stew</span></div><div style=\"\"><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'><br></span></div><div style=\"\">계란두부구이</div><div style=\"\">백김치비빔국수</div><div style=\"\">치커리토마토무침</div><div style=\"\">잡곡밥</div><div style=\"\">깍두기</div><div style=\"\">보리차</div><div style=\"\">홍초복분자에이드</div><div></div>",
+      "price": 6000,
+      "image": "https://soongguri.com/menu/menu_file/20210712_7_2.jpg"
+    }
+  ]
 }
