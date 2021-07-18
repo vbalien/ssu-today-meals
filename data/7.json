@@ -1,4 +1,10 @@
 {
   "name": "FACULTY LOUNGE",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div style=\"\"><strong style=\"color: rgb(255, 51, 0);\"><font face=\"맑은고딕\" style=\"\" size=\"2\">#뚝배기갈치조림</font></strong></div><div style=\"\"><strong style=\"color: rgb(255, 51, 0);\"><font face=\"맑은고딕\" size=\"2\">#돈육간장불고기</font></strong></div><div style=\"\"><strong><font face=\"맑은고딕\" size=\"2\"><br></font></strong></div><div style=\"\"><font color=\"#333300\" face=\"맑은고딕\" size=\"2\"><strong style=\"\">뚝배기갈치조림</strong><b>&nbsp;*&nbsp;</b><strong style=\"\">돈육간장불고기</strong><b></b></font></div><div style=\"\"><font face=\"맑은고딕\" size=\"2\"><span style=\"background-color: rgb(255, 255, 255); color: rgb(64, 64, 64);\">Braised Ttukbaegi Galchi</span><span style=\"color: rgb(66, 66, 66); letter-spacing:px; background-color: rgb(255, 255, 255);\">&nbsp;*&nbsp;</span><span style=\"background-color: rgb(255, 255, 255); color: rgb(64, 64, 64);\">Pork and meat soy sauce bulgogi</span></font></div><div style=\"\"><span style=\"color: rgb(64, 64, 64); background-color: rgb(255, 255, 255);\"><font face=\"맑은고딕\" size=\"2\"><br></font></span></div><div style=\"\"><font face=\"맑은고딕\" size=\"2\">호박나물</font></div><div style=\"\"><font face=\"맑은고딕\" size=\"2\">사과채샐러드</font></div><div style=\"\"><font face=\"맑은고딕\" size=\"2\">잡곡밥</font></div><div style=\"\"><font face=\"맑은고딕\" size=\"2\">포기김치</font></div><div style=\"\"><font face=\"맑은고딕\" size=\"2\">보리차</font></div><div style=\"\"><font face=\"맑은고딕\" style=\"\" size=\"2\">HOT매실차</font></div><div></div>",
+      "price": 6000
+    }
+  ]
 }
