@@ -1,4 +1,11 @@
 {
   "name": "FACULTY LOUNGE",
-  "menus": []
+  "menus": [
+    {
+      "kind": "점심 1코너",
+      "foods": "<div style=\"\"><font color=\"#ff0000\" face=\"맑은고딕\" size=\"2\"><div><strong style=\"font-family: 맑은고딕; \">#뚝배기차돌순두부찌개</strong><br></div></font></div><div style=\"\"><strong><font color=\"#ff0000\" face=\"맑은고딕\" size=\"2\">#치즈찜닭</font></strong><br></div><div style=\"\"><strong><font color=\"#330000\" face=\"맑은고딕\" size=\"2\"><br></font></strong></div><div style=\"\"><font color=\"#330000\"><strong style=\"font-family: 맑은고딕; \">뚝배기차돌순두부찌개</strong><font face=\"맑은고딕\" size=\"2\"><b>*</b></font><strong><font face=\"맑은고딕\" size=\"2\">치즈찜닭</font></strong><font face=\"맑은고딕\" size=\"2\"><b></b></font></font></div><div style=\"\"><font color=\"#330000\"><span style='font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>chadol soft tofu stew</span><font face=\"맑은고딕\" size=\"2\"><span style=\"letter-spacing:px; background-color: rgb(255, 255, 255);\">*</span></font><span style='font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>Steamed chees</span></font><span style='color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, \"Malgun Gothic\", \"맑은 고딕\", helvetica, \"Apple SD Gothic Neo\", helvetica, \"나눔바른고딕 옛한글\", \"NanumBarunGothic YetHangul\", sans-serif;  background-color: rgb(255, 255, 255);'>e chicken</span></div><div style=\"\"><font face=\"맑은고딕\" size=\"2\"><span style=\"color: rgb(64, 64, 64); background-color: rgb(255, 255, 255);\"><font face=\"맑은고딕\" size=\"2\"><br></font></span></font></div><div><font face=\"맑은고딕\" size=\"2\">부들어묵볶음</font></div><div><font face=\"맑은고딕\" size=\"2\">참나물무생채</font></div><div><font face=\"맑은고딕\" size=\"2\">도시락김</font></div><div><font face=\"맑은고딕\" size=\"2\">찰흑미밥</font></div><div><font face=\"맑은고딕\" size=\"2\">깍두기</font></div><div><font face=\"맑은고딕\" size=\"2\">보리차</font></div><div><font face=\"맑은고딕\" size=\"2\">요구르트</font></div><div><font face=\"맑은고딕\" size=\"2\"><br></font></div><div></div>",
+      "price": 6000,
+      "image": "https://soongguri.com/menu/menu_file/20210726_7_2.jpg"
+    }
+  ]
 }
