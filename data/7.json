@@ -1,9 +1,4 @@
 {
   "name": "FACULTY LOUNGE",
-  "menus": [
-    {
-      "kind": "점심 1코너",
-      "foods": "<span style=\"\">주말은 월드컵 경기와 함께~!!</span><div></div>"
-    }
-  ]
+  "menus": []
 }
